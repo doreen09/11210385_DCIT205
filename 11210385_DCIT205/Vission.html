@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Vision
+        </title>
+        <meta charset="UTF-8">
+<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
+
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family:  'Poppins', sans-serif;;
+}
+            *{
+            
+                box-sizing: border-box;
+            }
+           body{
+          
+            margin: 0%;
+           }
+           .logo{
+            width: 200;
+            height: 200;
+            background-color: black;
+            
+        
+           }
+           nav{
+                 margin-top: 0px;
+                 background:black ; 
+                 height: 100%;
+                 width: 100%;
+                 top: 0%;
+                 font-family: Arial, Helvetica, sans-serif;
+                 margin-bottom: 0px 0px 0px 0px;
+                 padding: 0%;
+             }
+             .navigation-bar{
+               position: relative;
+               margin:0%;
+              
+             }
+             nav a:hover{
+                color: black;
+                background-color: whitesmoke;
+             } 
+             nav ul{
+                 
+                 margin-right: 20px;
+              
+                  
+             }
+             nav ul li{
+                 display: inline-block;
+                 line-height: 35px ;
+                 margin: 0 5px;
+                 align-items: center; 
+             }
+             nav ul li a{
+                 color:white;
+                 font-size:17px;
+                 text-transform:uppercase;
+                 padding: 7px 13px;
+                 border-radius: 3px;
+                 
+             }
+            .title{
+                background-color: black;
+            }
+            .school{
+                color: whitesmoke;
+                display: block;
+                font-family: Arial, Helvetica, sans-serif;
+                font-stretch: semi-expanded;
+               
+            }
+            .department{
+                display: block;
+                font-size: 35px;
+                color: whitesmoke;
+                margin-bottom: 20px;
+                margin-top: 0px;
+            }
+            .dept{
+               margin-top: 20px;
+               background-color: whitesmoke;
+            }
+            .search{
+                background-color:black;
+                
+            }
+            .search-box{
+               
+                top: 50%;
+                transform: translate(-50% -50%);
+                background: whitesmoke;
+                height: 25px;
+                border-radius: 20px;
+                padding: 0;
+                margin: 40px 0px 0px;
+                padding-bottom: 0px;
+
+            }
+            .search-txt{
+                border: none;
+                background: none;
+                outline: none;
+                color: black;
+                padding:0;
+                float: inline-start;
+                font-size: 16px;
+                transition: 0.5s;
+                line-height: 40px;
+               
+            }
+
+            .vision{
+                padding: 20px;
+            }
+
+            .container{
+                max-width: 1170px;
+
+                margin: auto;
+            }
+            .row{
+                display:flex;
+                flex-wrap: wrap;
+
+            }
+            .ul{
+                list-style: none;
+            }
+            .footer{
+                background-color: black;
+                padding: 70px 0;
+            }
+            .footer-col{
+                width:25%;
+                padding: 0 15px;
+
+            }
+            .footer-col h4{
+                font-size: 18px;
+                color:whitesmoke;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+           
+            }
+            .footer-col h4::before{
+                content: '';
+                position:absoluste;
+                left: 0;
+                bottom: -10px;
+                background-color: red;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+            .footer-col ul li:not(:last-child){
+                margin-bottom: 10px;
+            }
+            .footer-col ul li a{
+                font-size: 16px;
+                text-transform:capitalize;
+                color: whitesmoke;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+                color: #ffffff;
+                padding-left: 8px ;
+
+            }
+            @media(max-width: 767px){
+                .footer-col{
+                    width:50%;
+                    margin-bottom:30px;
+                }
+            }
+            @media(max-width: 767px){
+                .footer-col{
+                    width:100%;
+                }
+            }
+            
+
+        </style>
+
+
+
+    </head>
+    <body>
+        
+        <div class="mainbody">
+            <nav  > 
+                <ul style="margin-top: 0px; margin-bottom: 0px;">
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="students.html">Students</a></li>
+
+                </ul>
+            </nav> 
+        </div>
+        <div>
+            <div style="
+                margin-top: 0px;
+                display: grid;
+                grid-template-columns: 0.5fr 3fr 1fr;
+                background-color: whitesmoke;
+                z-index: -100;
+                margin-bottom: 0px;
+                ">
+                <div class="logo"> 
+                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
+                </div>
+                <div class="title">
+                    <div class="department">
+                        <p>Computer Science Department</p>  
+                    </div>
+                    <div class="school">
+                        <p>University Of Ghana</p>
+                    </div>
+                </div>  
+                <div class="search">
+                    <div class="search-box">
+                        <input class="search-txt" type="text" width="200" placeholder="Search...">
+                      
+                    
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="vision">
+            <div>
+                <h1>
+                    DEPARTMENT OF COMPUTER SCIENCE
+                </h1>
+                <p>The Department of Computer Science is under the Faculty of Applied Sciences and has been training students in Higher National Diploma programme since 2007. Currently the department runs HND in Computer Science, Diploma in Information Technology, Diploma in Hardware and Networking, Diploma in Web Application and Database Management, and other certificate courses. The Department trains
+                    students in various fields of computing and equip them with knowledge for development and utilization of modern computing equipment thereby placing them in positions that are in high demand in society as well as research.</p>
+            </div>
+            <div>
+                <h3>
+                    VISION
+                </h3>
+                <p>
+                    To be a Centre of Excellence for producing high caliber, highly skilled, results oriented ICT graduates.
+                </p>
+            </div>
+            <div>
+                <h3>
+                    OBJECTIVES
+                </h3>    
+                    <p>
+                        To provide training for students in Certificate, HND and B.Tech programmes, set up “Software Houses” that will have different component of software preprogrammed to ease software development in Ghana. The result oriented and practical beneficiaries will
+                    </p>
+                <ul>
+                    <li>Setup modern computer systems for individuals and corporate bodies.</li>
+                    <li>Manage existing computer and neural systems.</li>
+                    <li>Develop various hardware components.</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>In Our Department</h4>
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our People</a></li>
+                            <li><a href="#">Research Activities</a></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Our Programmes</h4>
+                        <ul>
+                            <li><a href="#">BSc. Computer Science</a></li>
+                            <li><a href="#">BSc. Information Technology</a></li>
+                            <li><a href="#">MSc/MPhil Computer Science</a></li>
+                            <li><a href="#"></a>MSc/MPhil Information Technology</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">College Of Basic and Applied Science</a></li>
+                            <li><a href="#">Announcement</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Address</h4>
+                        <ul>
+                            <li><a href="#">Department of Computer Science</a></li>
+                            <li><a href="#">email: dcs@ug.edu.gh</a></li>
+                            <li><a href="#">Mobile: 0241197511/0201733552</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
