@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Vice Chancellor's Office
+        </title>
+        <meta charset="UTF-8">
+<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
+
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family:  'Poppins', sans-serif;;
+}
+            *{
+            
+                box-sizing: border-box;
+            }
+           body{
+          
+            margin: 0%;
+           }
+           .logo{
+            width: 200;
+            height: 200;
+            background-color: black;
+            
+        
+           }
+           nav{
+                 margin-top: 0px;
+                 background:black ; 
+                 height: 100%;
+                 width: 100%;
+                 top: 0%;
+                 font-family: Arial, Helvetica, sans-serif;
+                 margin-bottom: 0px 0px 0px 0px;
+                 padding: 0%;
+             }
+             .navigation-bar{
+               position: relative;
+               margin:0%;
+              
+             }
+             nav a:hover{
+                color: black;
+                background-color: whitesmoke;
+             } 
+             nav ul{
+                 
+                 margin-right: 20px;
+              
+                  
+             }
+             nav ul li{
+                 display: inline-block;
+                 line-height: 35px ;
+                 margin: 0 5px;
+                 align-items: center; 
+             }
+             nav ul li a{
+                 color:white;
+                 font-size:17px;
+                 text-transform:uppercase;
+                 padding: 7px 13px;
+                 border-radius: 3px;
+                 
+             }
+            .title{
+                background-color: black;
+            }
+            .school{
+                color: whitesmoke;
+                display: block;
+                font-family: Arial, Helvetica, sans-serif;
+                font-stretch: semi-expanded;
+               
+            }
+            .department{
+                display: block;
+                font-size: 35px;
+                color: whitesmoke;
+                margin-bottom: 20px;
+                margin-top: 0px;
+            }
+            .dept{
+               margin-top: 20px;
+               background-color: whitesmoke;
+            }
+            .search{
+                background-color:black;
+                
+            }
+            .search-box{
+               
+                top: 50%;
+                transform: translate(-50% -50%);
+                background: whitesmoke;
+                height: 25px;
+                border-radius: 20px;
+                padding: 0;
+                margin: 40px 0px 0px;
+                padding-bottom: 0px;
+
+            }
+            .search-txt{
+                border: none;
+                background: none;
+                outline: none;
+                color: black;
+                padding:0;
+                float: inline-start;
+                font-size: 16px;
+                transition: 0.5s;
+                line-height: 40px;
+               
+            }
+            .about_vice_chancellor{
+               
+               display: grid;
+               grid-template-columns: 0.25fr 1fr;
+               margin-top: 70px;
+               margin-bottom: 0px;
+            }
+            .list a{
+               display: block;
+               padding: 20px 25px;
+               color: black;
+               text-decoration: none;
+               text-align: center;
+               font-size: 12px;
+               background-color: gray;
+           }
+           .dropdown li{
+               display: block;
+           }
+           .dropdown{
+               padding-left: 0%;
+               background: gray;
+               position: absolute;
+               z-index: 999;
+               display: none;
+
+           }
+           .list a:hover{
+               background:black;
+               color: white;
+               transition: 0.4s;
+           }
+           .list:hover ul.dropdown{
+               display: block;
+           }
+
+           .vice_chancellor img{
+            float: left;
+            width: 300px;
+            height:260px;
+            padding:0 10px 0 0;
+            border-radius: 20px;
+
+           }
+           .vice_chancellor p{
+            text-align: justify;
+            margin-left: 10px;
+            padding-right: 10px;
+           }
+           .vice_chancellor{
+            margin-bottom: 20px;
+            padding-right: 20px;
+           }
+
+
+
+
+
+          
+            .container{
+                max-width: 1170px;
+
+                margin: auto;
+            }
+            .row{
+                display:flex;
+                flex-wrap: wrap;
+
+            }
+            .ul{
+                list-style: none;
+            }
+            .footer{
+                background-color: black;
+                padding: 70px 0;
+            }
+            .footer-col{
+                width:25%;
+                padding: 0 15px;
+
+            }
+            .footer-col h4{
+                font-size: 18px;
+                color:whitesmoke;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+           
+            }
+            .footer-col h4::before{
+                content: '';
+                position:absoluste;
+                left: 0;
+                bottom: -10px;
+                background-color: red;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+            .footer-col ul li:not(:last-child){
+                margin-bottom: 10px;
+            }
+            .footer-col ul li a{
+                font-size: 16px;
+                text-transform:capitalize;
+                color: whitesmoke;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+                color: #ffffff;
+                padding-left: 8px ;
+
+            }
+            @media(max-width: 767px){
+                .footer-col{
+                    width:50%;
+                    margin-bottom:30px;
+                }
+            }
+            @media(max-width: 767px){
+                .footer-col{
+                    width:100%;
+                }
+            }
+            
+
+        </style>
+
+
+
+    </head>
+    <body>
+        
+        <div class="mainbody">
+            <nav  > 
+                <ul style="margin-top: 0px; margin-bottom: 0px;">
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="students.html">Students</a></li>
+
+                </ul>
+            </nav> 
+        </div>
+        <div>
+            <div style="
+                margin-top: 0px;
+                display: grid;
+                grid-template-columns: 0.5fr 3fr 1fr;
+                background-color: whitesmoke;
+                z-index: -100;
+                margin-bottom: 0px;
+                ">
+                <div class="logo"> 
+                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
+                </div>
+                <div class="title">
+                    <div class="department">
+                        <p>Computer Science Department</p>  
+                    </div>
+                    <div class="school">
+                        <p>University Of Ghana</p>
+                    </div>
+                </div>  
+                <div class="search">
+                    <div class="search-box">
+                        <input class="search-txt" type="text" width="200" placeholder="Search...">
+                      
+                    
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="about_vice_chancellor">
+            <div class="about-col">
+                <ul class="list">
+                    <li>
+                        <a href="#">About Us > </a>
+                            <ul class="dropdown">
+                                <li><a href="Vision.html">Vision and Mission</a></li>
+                                <li><a href="About.html">Brief History</a></li>
+                                <li><a href="vice_chancellor.html">Vice Chancellor's Office</a></li>
+                                <li><a href="University_policies.html">University Policies</a></li>
+                            </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+                <div class="vice_chancellor">
+                    
+                    <h1>Professor Nana Aba Appiah Amfo</h1>
+                    <img src="vice_chancellor.jpeg" alt="Vice-Chancellor's picture"> 
+                    <p>
+                        Professor Nana Aba Appiah Amfo is the first female Vice-Chancellor at the University of Ghana. She is an experienced academic and university administrator, with over twenty years of experience in the higher education sector. She brings a lot of innovation, resourcefulness, and tact to her professional engagements. As Vice-Chancellor, Professor Amfo is driven by two key notions–technology as an enabler and a devotion to human welfare – in all the operations of the University.
+                    </p>
+                    <p>
+                        Prior to her appointment as Vice-Chancellor in October 2021, she served as Acting Vice-Chancellor from August 2021. She served as Pro Vice-Chancellor with responsibility for Academic and Student Affairs (ASA) from November 2019. Professor Amfo was founding Dean of the School of Languages (2014 – 2019). She previously served as the Head of the Department of Linguistics (2013 – 2014). She has participated in the governance of the University of Ghana through her service on several statutory and ad hoc boards and committees. As Vice-Chancellor, Professor Amfo chairs several high-level statutory boards and committees of the University such as the Academic Board, Business and Executive Committee and Office of Research and Innovation Development (ORID) Advisory Board. Her board and committee experience at the University includes her chairmanship of the Careers and Counselling Centre Advisory Board, Library Board, Advisory Committee for Staff and Students with Special Needs, International Programmes Office Advisory Board, Residence Board and Housing Committee. She also previously served as the Chair of the Management Board of the University Basic School (2011 – 2016), the College of Humanities Senior and Junior Staff Appointments and Promotions Committee (2014 – 2018) and the Mentoring and Professional Development Sub-committee of the Centre for Gender Studies and Advocacy (CEGENSA) (2010 – 2013). She was the University of Ghana’s representative on the Catholic University College Appointments and Promotions Committee (2011 – 2016). She was also a member of the College of Humanities Advisory Board, and she served as a Tutor of Mensah Sarbah Hall.
+                    </p>
+                    <p>
+                        Professor Amfo’s MPhil (2001) and PhD (2007) degrees in Linguistics are from the Norwegian University of Science and Technology in Trondheim, Norway. She holds a bachelor’s degree (French and Linguistics) from the University of Ghana. Professor Amfo has a post-graduate certificate in Administration and Management from Ghana Institute of Management and Public Administration (GIMPA) and has received additional training in higher education management and leadership from Harvard Business School, University of Applied Sciences, Germany, and INSEAD, France. She is a past student of Holy Child School (O’Level) and Archbishop Porter’s Girls Secondary School (A’Level).
+                    </p>
+                    <p>
+                        Professor Amfo’s career in academia started in 2001 as a Lecturer in the Department of Linguistics after her Master’s degree. In 2007, the same year she obtained her PhD degree, she was promoted Senior Lecturer. She became Associate Professor in 2011, and Professor in 2017. Professor Amfo’s research interests are in the linguistic sub-discipline of Pragmatics, which allows her to explore the role that context plays in conversational interactions and how that influences communication in different domains such as health, politics, gendered and migratory contexts. She has led several research projects in her disciplinary area of linguistics as well as in multi-disciplinary teams. Her research has resulted in numerous internationally recognized publications and conference presentations.
+                    </p>
+                    <p>
+                        Professor Amfo has acquired extensive multi-cultural experience through various professional engagements in twenty countries in Africa, Europe, Asia, North America and Australia. These engagements include giving competitive and invited talks, serving as external assessor, and engaging with research and professional collaborators. She is an engaged public speaker and has featured on several local and international media platforms. She has been an external examiner for a number of universities including University of Nairobi, Kenya; University of Dar es Salaam, Tanzania; University of the Western Cape, South Africa; and Norwegian University of Science and Technology, Norway. Her passion for mentoring particularly younger professional women has driven her to organise and or facilitate several capacity building training programmes in both the public and private higher education sectors, as well as in other public and private organisations. She has been a consultant trainer for the Nursing and Midwifery Council of Ghana and an Advisory Board member of the Coalition of People Against Sexual and Gender Based Violence and Harmful Practices (CoPASH) – A UNFPA supported programme.
+                    </p>
+                    <p>
+                        Professor Amfo’s professional expertise and leadership has been recognized by her peers. She serves on the Consultation Board of the International Pragmatics Association (the first African to be so elected since the Association’s establishment in 1986). She is an Assistant Secretary General of the Federation of Modern Languages and Literatures, FILLM (a UNESCO affiliated scholarly association). She was the President of the Linguistics Association of Ghana (2010 – 2014). She is a member of the West African Linguistics Society and the Society for Communication, Medicine and Ethics (COMET). She is a pioneer fellow, senior scholar, mentor, and assessor of the African Humanities Program of the American Council of Learned Societies. She is the Founding President of the African Humanities Association (AHA), an off-shoot of the AHP. She is Co-founder and the Acting President of the African Pragmatics Association. Professor Amfo is a fellow of the Ghana Academy of Arts and Sciences, German Academic Exchange Services (DAAD), Commonwealth Professionals Fellowship, the Alexander von Humboldt Foundation, and the prestigious International Women’s Forum Leadership Program. She is a life member of the University of Ghana Alumni Association. Professor Amfo is married to Mr. Frank Amfo, and they have been blessed with three children, Yoofi, Maame Araba and Efua Benyiwa.
+                    </p>
+    
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>In Our Department</h4>
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our People</a></li>
+                            <li><a href="#">Research Activities</a></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Our Programmes</h4>
+                        <ul>
+                            <li><a href="#">BSc. Computer Science</a></li>
+                            <li><a href="#">BSc. Information Technology</a></li>
+                            <li><a href="#">MSc/MPhil Computer Science</a></li>
+                            <li><a href="#"></a>MSc/MPhil Information Technology</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">College Of Basic and Applied Science</a></li>
+                            <li><a href="#">Announcement</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Address</h4>
+                        <ul>
+                            <li><a href="#">Department of Computer Science</a></li>
+                            <li><a href="#">email: dcs@ug.edu.gh</a></li>
+                            <li><a href="#">Mobile: 0241197511/0201733552</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

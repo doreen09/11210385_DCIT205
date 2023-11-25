@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Library Policies
+        </title>
+        <meta charset="UTF-8">
+<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
+
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family:  'Poppins', sans-serif;;
+}
+            *{
+            
+                box-sizing: border-box;
+            }
+           body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0%;
+           }
+           .logo{
+            width: 200;
+            height: 200;
+            background-color: black;
+            
+        
+           }
+           nav{
+                 margin-top: 0px;
+                 background:black ; 
+                 height: 100%;
+                 width: 100%;
+                 top: 0%;
+                 font-family: Arial, Helvetica, sans-serif;
+                 margin-bottom: 0px 0px 0px 0px;
+                 padding: 0%;
+             }
+             .navigation-bar{
+               position: relative;
+               margin:0%;
+              
+             }
+             nav a:hover{
+                color: black;
+                background-color: whitesmoke;
+             } 
+             nav ul{
+                 
+                 margin-right: 20px;
+              
+                  
+             }
+             nav ul li{
+                 display: inline-block;
+                 line-height: 35px ;
+                 margin: 0 5px;
+                 align-items: center; 
+             }
+             nav ul li a{
+                 color:white;
+                 font-size:17px;
+                 text-transform:uppercase;
+                 padding: 7px 13px;
+                 border-radius: 3px;
+                 
+             }
+            .title{
+                background-color: black;
+            }
+            .school{
+                color: whitesmoke;
+                display: block;
+                font-family: Arial, Helvetica, sans-serif;
+                font-stretch: semi-expanded;
+               
+            }
+            .department{
+                display: block;
+                font-size: 35px;
+                color: whitesmoke;
+                margin-bottom: 20px;
+                margin-top: 0px;
+            }
+            .dept{
+               margin-top: 20px;
+               background-color: whitesmoke;
+            }
+            .search{
+                background-color:black;
+                
+            }
+            .search-box{
+               
+                top: 50%;
+                transform: translate(-50% -50%);
+                background: whitesmoke;
+                height: 25px;
+                border-radius: 20px;
+                padding: 0;
+                margin: 40px 0px 0px;
+                padding-bottom: 0px;
+
+            }
+            .search-txt{
+                border: none;
+                background: none;
+                outline: none;
+                color: black;
+                padding:0;
+                float: inline-start;
+                font-size: 16px;
+                transition: 0.5s;
+                line-height: 40px;
+               
+            }
+            .policies-col .policies_content{
+               
+               display: grid;
+               grid-template-columns: 0.25fr 1fr;
+               margin-top: 70px;
+               margin-bottom: 0px;
+               padding: 20px;
+           }
+           .policies-col .policies_content .policies{
+                padding: 20px;
+           }
+           .policies-col .policies_content .policies h4 , h1{
+                color: gray;
+           }
+           
+           .list a{
+               display: block;
+               padding: 20px 25px;
+               color: black;
+               text-decoration: none;
+               text-align: center;
+               font-size: 12px;
+               background-color: gray;
+           }
+           .dropdown li{
+               display: block;
+           }
+           .dropdown{
+               padding-left: 0%;
+               background: gray;
+               position: absolute;
+               z-index: 999;
+               display: none;
+
+           }
+           .list a:hover{
+               background:black;
+               color: white;
+               transition: 0.4s;
+           }
+           .list:hover ul.dropdown{
+               display: block;
+           }
+
+
+
+
+
+
+
+
+           
+            .container{
+                max-width: 1170px;
+
+                margin: auto;
+            }
+            .row{
+                display:flex;
+                flex-wrap: wrap;
+
+            }
+            .ul{
+                list-style: none;
+            }
+            .footer{
+                background-color: black;
+                padding: 70px 0;
+            }
+            .footer-col{
+                width:25%;
+                padding: 0 15px;
+
+            }
+            .footer-col h4{
+                font-size: 18px;
+                color:whitesmoke;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+           
+            }
+            .footer-col h4::before{
+                content: '';
+                position:absoluste;
+                left: 0;
+                bottom: -10px;
+                background-color: red;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+            .footer-col ul li:not(:last-child){
+                margin-bottom: 10px;
+            }
+            .footer-col ul li a{
+                font-size: 16px;
+                text-transform:capitalize;
+                color: whitesmoke;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+                color: #ffffff;
+                padding-left: 8px ;
+
+            }
+            @media(max-width: 767px){
+                .footer-col{
+                    width:50%;
+                    margin-bottom:30px;
+                }
+            }
+            @media(max-width: 767px){
+                .footer-col{
+                    width:100%;
+                }
+            }
+            
+
+        </style>
+
+
+
+    </head>
+    <body>
+        
+        <div class="mainbody">
+            <nav  > 
+                <ul style="margin-top: 0px; margin-bottom: 0px;">
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="students.html">Students</a></li>
+
+                </ul>
+            </nav> 
+        </div>
+        <div>
+            <div style="
+                margin-top: 0px;
+                display: grid;
+                grid-template-columns: 0.5fr 3fr 1fr;
+                background-color: whitesmoke;
+                z-index: -100;
+                margin-bottom: 0px;
+                ">
+                <div class="logo"> 
+                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
+                </div>
+                <div class="title">
+                    <div class="department">
+                        <p>Computer Science Department</p>  
+                    </div>
+                    <div class="school">
+                        <p>University Of Ghana</p>
+                    </div>
+                </div>  
+                <div class="search">
+                    <div class="search-box">
+                        <input class="search-txt" type="text" width="200" placeholder="Search...">
+                      
+                    
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      
+        <div class="policies-col">
+                <div class="policies_content">
+                    <ul class="list">
+                        <li>
+                            <a href="#">Quick Tour > </a>
+                                <ul class="dropdown">
+                                    <li><a href="library_sections.html">Sections</a></li>
+                                    <li><a href="library_policies.html">Policies</a></li>
+
+                                </ul>
+                        </li>
+                    </ul>
+                    <div class="policies">
+                    <h1>
+                        POLICIES
+                    </h1>
+                    <h4>
+                        General Rules and Regulations
+                    </h4>
+                    <ul>
+                        <li>
+                            Bags, briefcases, hats, raincoats, umbrellas and other carriers, such as large handbags, are not allowed into the Library. They should be placed in pigeon holes provided at the entrance of the Library
+                        </li>
+                        <li>
+                            Readers must submit any book(s) and materials they are carrying while leaving the Library for scrutiny at the Security Check Point.
+                        </li>
+                        <li>
+                            Silence should be maintained in the Library, and any behaviour likely to disturb or inconvenience other readers should be avoided. 
+                        </li>
+                        <li>
+                            Books consulted should not be returned to the shelves. They should be left on the tables.
+                        </li>
+                        <li>
+                            No book may be removed from the Library unless a loan form has been duly completed and the book properly charged out at the Circulation Desk.
+                        </li>
+                    </ul>
+                    <h4>
+                        Care of Books
+                    </h4>
+                    <ul>
+                        <li>
+                            Library users are expected to take very good care of materials in their possession.
+                        </li>
+                        <li>
+                            Readers must not write or mark any items from the collection, neither should they fold, cut nor damage any book. Any defect in or damage to a book should be reported to the library staff.
+                        </li>
+                        <li>
+                            Readers and borrowers will be held responsible for any damage to a book in their care and will be required to pay the appropriate cost of such damaged books.
+                        </li>
+                        <li>
+                            Borrowers should report at once the lost of any book, and if not found, the borrower shall pay for the assessed cost of the lost book.
+                        </li>
+                        <li>
+                            Eating, drinking and smoking are forbidden within the Library.
+                        </li>
+                        <li>
+                            The use of naked light, including candles, is not allowed in the Library.
+                        </li>
+                        <li>
+                            Items that could be harmful to the collection are not allowed into any part of the Library. These include:
+                            <ol type="1">
+                                <li>
+                                    Food
+                                </li>
+                                <li>
+                                    Drink
+                                </li>
+                                <li>
+                                    Water, either bottled or sachet
+                                </li>
+                                <li>
+                                    Sweets, chewing gum
+                                </li>
+                                <li>
+                                    CLeaning liquids
+                                </li>
+                                <li>
+                                    Liquid medicine
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <h4>
+                        Borrowing of Books
+                    </h4>
+                    <ol type="1">
+                        <li>
+                            Books at Lending Library
+                        </li>
+                        <p>
+                            Students may borrow up to 2 books for 2 weeks renewable once only if not requested by another user. Books borrowed may be recalled after 7 days if circumstances of the library demand. Lecturers may borrow up to 6 books per semester, subject to recall after 4 weeks if circumstances of the library so demand. Part-time lecturers may borrow up to 4 books per semester, subject to recall after 4 weeks if circumstances of the library so demand. Administrative staff may borrow up to 3 books for 2 weeks renewable once only if not requested by another user. Books borrowed may be recalled after 7 days if circumstances of the library demand.
+                        </p>
+                        <li>
+                            Reservation of Books
+                        </li>
+                        <p>
+                            A book which is on loan and which is required by another reader may be reserved on application to the Librarian in charge of the Lending Library. The reader would be notified when the book is available. Such a book will be kept for only 3 days. If it is not collected after the period, the book will be returned to the library’s shelves.
+                        </p>
+                    </ol>
+                    <h4>
+                        Offences and Sanctions
+                    </h4>
+                    <p>
+                        The following shall constitute library offences:
+                    </p>
+                    <ol type="1">
+                        <li>
+                            Failure to return Books on Date due
+                        </li>
+                        <p>
+                            A member who commits this offence shall be liable to pay a fine of GH¢0.50 per day up to seven (7) days. Thereafter a fine of GH¢1.00 a day plus loss of borrowing rights will be imposed until the books are returned. Final year students who fail to return all library books to the Library three (3) days before the Second Semester final examination will be debarred from taking the examinations.
+                        </p>
+                        <li>
+                            Failure to return books and other materials on demand (i.e. when a book is recalled)
+                        </li>
+                        <p>
+                            The member shall lose borrowing rights for one semester.
+                        </p>
+                        <li>
+                            Misplacement of Books
+                        </li>
+                        <p>
+                            A member who reports the misplacement of a borrowed book will be given fourteen (14) days to look for it. During the period, he/she shall be liable to pay a fine of GH¢0.50 per day up to seven (7) days and a fine of GH¢1.00 per day thereafter.
+                        </p>
+                        <li>
+                            Loss of Books
+                        </li>
+                        <p>
+                            A member who commits this offence shall be liable to pay twice the current price in Cedis plus servicing charges.
+                        </p>
+                        <li>
+                            Stealing of Books/Periodicals
+                        </li>
+                        <p>
+                            A member who commits this offence shall be dismissed from the University.
+                        </p>
+                        <li>
+                            Writing or Underlining Sentences in Library Books
+                        </li>
+                        <p>
+                            A member who commits this offence will pay the current price of the book in Cedis and will lose borrowing rights for two semesters. In the case of a lecture who commits any of the above offences a report will be made to the Vice Chancellor and the Registrar for appropriate sanctions. With regard to the General Rules of the Library, flouting any of them could result in the Library imposing appropriate sanctions on the offender(s), including the suspension of the use of the Library.
+                        </p>
+
+
+
+
+
+                    </ol>
+                </div>
+            </div>
+            
+              
+        </div>            
+
+
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>In Our Department</h4>
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our People</a></li>
+                            <li><a href="#">Research Activities</a></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Our Programmes</h4>
+                        <ul>
+                            <li><a href="#">BSc. Computer Science</a></li>
+                            <li><a href="#">BSc. Information Technology</a></li>
+                            <li><a href="#">MSc/MPhil Computer Science</a></li>
+                            <li><a href="#"></a>MSc/MPhil Information Technology</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">College Of Basic and Applied Science</a></li>
+                            <li><a href="#">Announcement</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Address</h4>
+                        <ul>
+                            <li><a href="#">Department of Computer Science</a></li>
+                            <li><a href="#">email: dcs@ug.edu.gh</a></li>
+                            <li><a href="#">Mobile: 0241197511/0201733552</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

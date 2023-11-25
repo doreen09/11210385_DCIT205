@@ -2,17 +2,17 @@
 <html>
     <head>
         <title>
-            About Us
+            Staff
         </title>
         <meta charset="UTF-8">
-        <meta name="viewport" csontent="width=device-width, initial-scale=1.0">
+<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
 
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-            body{
-                line-height: 1.5;
-                font-family:  'Poppins', sans-serif;;
-            }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family:  'Poppins', sans-serif;;
+}
             *{
             
                 box-sizing: border-box;
@@ -43,6 +43,10 @@
                margin:0%;
               
              }
+             nav a:hover{
+                color: black;
+                background-color: whitesmoke;
+             } 
              nav ul{
                  
                  margin-right: 20px;
@@ -63,7 +67,6 @@
                  border-radius: 3px;
                  
              }
-           
             .title{
                 background-color: black;
             }
@@ -72,17 +75,7 @@
                 display: block;
                 font-family: Arial, Helvetica, sans-serif;
                 font-stretch: semi-expanded;
-           
-
-            }
                
-            .header{
-                margin-top: 0px;
-                display: grid;
-                grid-template-columns: 0.5fr 3fr 1fr;
-                background-color: whitesmoke;
-                z-index: -100;
-                margin-bottom: 0px;
             }
             .department{
                 display: block;
@@ -96,7 +89,7 @@
                background-color: whitesmoke;
             }
             .search{
-                background-color: black;
+                background-color:black;
                 
             }
             .search-box{
@@ -115,73 +108,87 @@
                 border: none;
                 background: none;
                 outline: none;
-                color: white;
+                color: black;
                 padding:0;
                 float: inline-start;
                 font-size: 16px;
+                transition: 0.5s;
                 line-height: 40px;
-            }
-            .about-col{
                
-                display: grid;
-                grid-template-columns: 0.25fr 1fr;
-                margin-top: 70px;
-                margin-bottom: 0px;
             }
-            .list a{
-                display: block;
-                padding: 20px 25px;
-                color: black;
-                text-decoration: none;
-                text-align: center;
-                font-size: 12px;
-                background-color: gray;
-            }
-            .dropdown li{
-                display: block;
-            }
-            .dropdown{
-                padding-left: 0%;
-                background: gray;
-                position: absolute;
-                z-index: 999;
-                display: none;
-
-            }
-            .list a:hover{
-                background:black;
-                color: white;
-                transition: 0.4s;
-            }
-            .list:hover ul.dropdown{
-                display: block;
-            }
-            .department-image img{
-                border-radius: 20px;
+            .picture_with_students img{
+                width: 100%;
+                border-radius: 18px;
+                height: 400px;
                 margin-top: 10px;
-                padding: 10px;
             }
-            .history-title{
-                color: grey;
-                font-size: 28px;
+            .content_title{
+                font-stretch: extra-expanded;
+                font-size: 18px;
                 text-align: center;
-                font-weight: 500;
+                color: darkslategray;
+                
             }
-            .about-col p{
-                margin-bottom: 100px;
-                padding: 30px;
+            .staff{
                 background-color: whitesmoke;
-
             }
-            
-             
-           
+            .staff .chancellor img{
+                border-radius: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                height: 300px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                margin-left: 40px;
+            }
+            .staff .vice_chancellor img{
+                border-radius: 18px;
+                align-content: center;
+                height: 300px;
+                width: 50%;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                margin-left: 40px;
+            }
+            .staff .information{
+                padding-left:50px;
+            }
+            .staff .hod img{
+                border-radius: 18px;
+                height: 300px;
+                width: 50%;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                margin-left: 40px;
+            }
+            .staff .course_advisor img{
+                border-radius: 18px;
+                height: 300px;
+                width: 50%;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                margin-left: 40px;
+            }
+            .staff .lecturer_1 img{
+                border-radius: 18px;
+                height: 300px;
+                width: 50%;
+                padding-left: 20px;
+                margin-left: 40px;
+            }
+          
 
 
 
-        
+
+
+
+
             .container{
                 max-width: 1170px;
+
                 margin: auto;
             }
             .row{
@@ -249,13 +256,18 @@
                     width:100%;
                 }
             }
+            
+
         </style>
+
+
+
     </head>
     <body>
-    
-        <div>
-            <nav> 
-                <ul style="margin-top: 0px; margin-bottom: 0px;" class="links">
+        
+        <div class="mainbody">
+            <nav  > 
+                <ul style="margin-top: 0px; margin-bottom: 0px;">
                 <li><a class="active" href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="admissions.html">Admissions</a></li>
@@ -270,7 +282,14 @@
             </nav> 
         </div>
         <div>
-            <div class="header">
+            <div style="
+                margin-top: 0px;
+                display: grid;
+                grid-template-columns: 0.5fr 3fr 1fr;
+                background-color: whitesmoke;
+                z-index: -100;
+                margin-bottom: 0px;
+                ">
                 <div class="logo"> 
                     <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
                 </div>
@@ -285,45 +304,93 @@
                 <div class="search">
                     <div class="search-box">
                         <input class="search-txt" type="text" width="200" placeholder="Search...">
-                    
+                      
                     
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="department-image">
-            <img src="building 7.jpeg" alt="The Department" width="100%" height="300">
-        </div>
-        <div class="history-title">
-            <p> Brief History</p>
-        </div>
-        <div>
-            <div class="about-col">
-              <ul class="list">
-                    <li>
-                        <a href="#">About Us > </a>
-                            <ul class="dropdown">
-                                <li><a href="Vision.html">Vision and Mission</a></li>
-                                <li><a href="About.html">Brief History</a></li>
-                                <li><a href="vice_chancellor.html">Vice Chancellor's Office</a></li>
-                                <li><a href="University_policies.html">University Policies</a></li>
-                            </ul>
-                    </li>
-                </ul>
-              
-                <p>
-                    <span class="history">
-                        Established in 2003, the Department of Computer Science in the University of Ghana serves as a center for computing education and research at both the undergraduate and graduate levels. There are strong research groups focusing on areas such as Artificial Intelligence, Cyber Security, Information Systems, Computer theory and Scientific computing, and Software Engineering. The goal of these groups is to use technology as a means to address national and international issues and to foster national development. Additionally, there is a strong emphasis on interdisciplinary and transnational research on applications that encourages basic and advanced research.
-
-                        The Department of Computer Science is one of the departments of the College of Basic and Applied Sciences. The Department started with a 1-year certificate course in Data Processing which has currently been stopped. Many years down the line, the Department now runs a 4 -year degree programme in Computer Science. The Computer Science Department was presented with an award during the first Information Communication and Technology Award night. 
-                                        
-                        In today's rapidly changing world, maintaining global competitiveness requires the talents of a well-rounded, holistic individual with technical knowledge and business acumen to address challenging issues. The Computer Science Department is unique in developing skills in Information Technology.
-                    </span>
-                </p>
-            </div>            
-                        
         
+        </div>
+        <div class="picture_with_students">
+            <img src="Students.jpeg">
+        </div>
+        <div class="content_title">
+            <h1>Know Our Staff</h1>
+        </div>
+        
+        <div style= "
+                    display: grid;
+                    grid-template-columns: 1fr 1fr"
+                    class="staff">
+        
+            <div class="chancellor">
+                <img src="chancellor.jpeg">
+            </div>
+            <div>
+                <p>
+                    Mary Chinery-Hesse
+
+                </p>
+                <p>
+                    Chancellor,
+                </p>
+                <p>
+                    University Of Ghana
+                </p>
+            </div>
+            <div class="vice_chancellor">
+                <img src="vice_chancellor.jpeg">
+            </div>
+            <div class="information">
+                <p>
+                    Nana Aba Appiah Amfo
+                </p>
+                <p>
+                    Vice Chancellor,
+                </p>
+                <p>
+                    University Of Ghana
+                </p>
+            </div>
+
+            <div class="hod">
+                <img src="hod.jpg">
+            </div>
+            <div>
+                <p>Jamal-Deen</p>
+                <p>Head Of Department,</p>
+                <p>Computer Science Department</p>
+            </div>
+
+            <div class="course_advisor">
+                <img src="course_advisor.jpg">
+            </div>
+            <div class="information_course_advisor">
+                <p>
+                    Mark Atta Mensah
+                </p>
+                <p>
+                   Course Advisor,
+                </p>
+                <p>
+                    Computer Science Department
+                </p>
+            </div>
             
+
+            <div class="lecturer_1">
+                <img src="lecturer_1.jpg">
+            </div>
+            <div>
+                <p>Michael Soli</p>
+                <p>Web Development Lecturer,</p>
+                <p>Computer Science Department</p>
+            </div>
+
+
+
+
+
         </div>
 
 
@@ -341,14 +408,7 @@
 
 
 
-
-
-
-
-
-
-
-
+    
 
         <footer class="footer">
             <div class="container">
@@ -391,5 +451,7 @@
                 </div>
             </div>
         </footer>
-    </body>
+    </div>
+
+</body>
 </html>

@@ -2,17 +2,17 @@
 <html>
     <head>
         <title>
-            About Us
+            Academics
         </title>
         <meta charset="UTF-8">
-        <meta name="viewport" csontent="width=device-width, initial-scale=1.0">
+<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
 
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-            body{
-                line-height: 1.5;
-                font-family:  'Poppins', sans-serif;;
-            }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family:  'Poppins', sans-serif;;
+}
             *{
             
                 box-sizing: border-box;
@@ -43,6 +43,10 @@
                margin:0%;
               
              }
+             nav a:hover{
+                color: black;
+                background-color: whitesmoke;
+             } 
              nav ul{
                  
                  margin-right: 20px;
@@ -63,7 +67,6 @@
                  border-radius: 3px;
                  
              }
-           
             .title{
                 background-color: black;
             }
@@ -72,17 +75,7 @@
                 display: block;
                 font-family: Arial, Helvetica, sans-serif;
                 font-stretch: semi-expanded;
-           
-
-            }
                
-            .header{
-                margin-top: 0px;
-                display: grid;
-                grid-template-columns: 0.5fr 3fr 1fr;
-                background-color: whitesmoke;
-                z-index: -100;
-                margin-bottom: 0px;
             }
             .department{
                 display: block;
@@ -96,7 +89,7 @@
                background-color: whitesmoke;
             }
             .search{
-                background-color: black;
+                background-color:black;
                 
             }
             .search-box{
@@ -115,73 +108,89 @@
                 border: none;
                 background: none;
                 outline: none;
-                color: white;
+                color: black;
                 padding:0;
                 float: inline-start;
                 font-size: 16px;
+                transition: 0.5s;
                 line-height: 40px;
-            }
-            .about-col{
                
-                display: grid;
-                grid-template-columns: 0.25fr 1fr;
-                margin-top: 70px;
-                margin-bottom: 0px;
             }
-            .list a{
-                display: block;
-                padding: 20px 25px;
-                color: black;
-                text-decoration: none;
-                text-align: center;
-                font-size: 12px;
-                background-color: gray;
-            }
-            .dropdown li{
-                display: block;
-            }
-            .dropdown{
-                padding-left: 0%;
-                background: gray;
-                position: absolute;
-                z-index: 999;
-                display: none;
-
-            }
-            .list a:hover{
-                background:black;
-                color: white;
-                transition: 0.4s;
-            }
-            .list:hover ul.dropdown{
-                display: block;
-            }
-            .department-image img{
-                border-radius: 20px;
-                margin-top: 10px;
+            .admissions_pic img{
+                width: 100%;
                 padding: 10px;
+                border-radius: 18px;
+                height: 400px;
             }
-            .history-title{
-                color: grey;
-                font-size: 28px;
-                text-align: center;
-                font-weight: 500;
+            .grid{
+            background-color: whitesmoke;
+            padding: 10px;
             }
-            .about-col p{
-                margin-bottom: 100px;
-                padding: 30px;
+            .main_course_div{
                 background-color: whitesmoke;
-
+                padding-top: 10px;
             }
-            
-             
+            .our_courses_title p{
+                text-align: center;
+                color: gray;
+                font-size: 30px;
+                background-color: lightgrey;
+                margin-bottom: 0%;
+                justify-content: center;
+            }
+            .courses{
+                padding: 50px;
+                padding-top: 0%;
+                padding-bottom: 0%;
+            }
+            .courses_title p{
+                background-color: gray;
+                text-align: center;
+            }
+            .courses .courses_content{
+                background-color: lightgrey;
+            }
+
+            .courses .courses_link{
+                background-color: gray;
+                text-align: center;
+            }
+            .courses .courses_link a{
+                color: black;
+            }
+            .events .image img{
+                margin-top: 40px;
+                height: 200px;
+                width: 250px;
+                display: inline;
+            }
+            .events .department_events a{
+                color: gray;
+            }
+            .events .department_events h1{
+                color: gray;
+            }
+            .short_courses{
+                text-align: center;
+                margin-top: 50px;
+            }
+            .short_courses h1,b{
+                color: gray;
+            }
+            .admission img{
+                width: 100%;
+            }
            
 
 
 
-        
+
+
+
+
             .container{
                 max-width: 1170px;
+
                 margin: auto;
             }
             .row{
@@ -249,13 +258,18 @@
                     width:100%;
                 }
             }
+            
+
         </style>
+
+
+
     </head>
     <body>
-    
-        <div>
-            <nav> 
-                <ul style="margin-top: 0px; margin-bottom: 0px;" class="links">
+        
+        <div class="mainbody">
+            <nav  > 
+                <ul style="margin-top: 0px; margin-bottom: 0px;">
                 <li><a class="active" href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="admissions.html">Admissions</a></li>
@@ -269,8 +283,15 @@
                 </ul>
             </nav> 
         </div>
-        <div>
-            <div class="header">
+        <div class="main_course_div">
+            <div style="
+                margin-top: 0px;
+                display: grid;
+                grid-template-columns: 0.5fr 3fr 1fr;
+                background-color: whitesmoke;
+                z-index: -100;
+                margin-bottom: 0px;
+                ">
                 <div class="logo"> 
                     <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
                 </div>
@@ -285,62 +306,128 @@
                 <div class="search">
                     <div class="search-box">
                         <input class="search-txt" type="text" width="200" placeholder="Search...">
-                    
+                      
                     
                     </div>
                 </div>
             </div>
+        
         </div>
-        <div class="department-image">
-            <img src="building 7.jpeg" alt="The Department" width="100%" height="300">
-        </div>
-        <div class="history-title">
-            <p> Brief History</p>
+        <div class="admissions_pic">
+            <img src="students 3.jpeg">
         </div>
         <div>
-            <div class="about-col">
-              <ul class="list">
-                    <li>
-                        <a href="#">About Us > </a>
-                            <ul class="dropdown">
-                                <li><a href="Vision.html">Vision and Mission</a></li>
-                                <li><a href="About.html">Brief History</a></li>
-                                <li><a href="vice_chancellor.html">Vice Chancellor's Office</a></li>
-                                <li><a href="University_policies.html">University Policies</a></li>
-                            </ul>
-                    </li>
-                </ul>
-              
+            <div class="our_courses_title">
+                <p>Our courses</p>
+            </div>
+            <div style="display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr;"
+                        class="grid"
+             >
+                
+                <div class="courses">
+                    <div class="courses_content">
+                        <div class="courses_title">
+                            <p>Short Courses</p>
+                        </div>
+                        <div>
+                            <p>Our eight week intensive certificate course is open to senior high school graduates, tetiary students, school graduates, workers and the general public</p>
+                        </div>
+                        <div class="courses_link">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses">
+                    <div class="courses_content">
+                        <div class="courses_title">
+                            <p>Undergraduate programmes</p>
+                        </div>
+                        <div>
+                            <p>
+                                Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree.
+                            </p>
+                        </div>
+                        <div class="courses_link">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses">
+                    <div class="courses_content">
+                        <div class="courses_title">
+                            <p>MPhil and MSc Programmes</p>
+                        </div>
+                        <div>
+                            <p>
+                                Embrace world class graduate education with unique blend of  research and industry exposure for a globally impactful learning experience.
+                            </p>
+                        </div>
+                        <div class="courses_link">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses">
+                    <div class="courses_content">
+                        <div class="courses_title">
+                            <p>PhD Programmes</p>
+                        </div>
+                        <div>
+                            <p>
+                            Our PhD spearhead endeavors to expand knowledge frontiers via high-quality research that aligns with industry needs, driving innovation and relevance.
+                            </p>
+                        </div>
+                        <div class="courses_link">
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style=" display: grid;
+                    grid-template-columns: 1fr 1fr 2fr;"
+            class="events" >
+            <div></div>
+            <div class="image">
+                <img src="Students.jpeg">
+            </div>
+            <div class="department_events">
+                <h1>
+                    Departmental Events
+                </h1>
                 <p>
-                    <span class="history">
-                        Established in 2003, the Department of Computer Science in the University of Ghana serves as a center for computing education and research at both the undergraduate and graduate levels. There are strong research groups focusing on areas such as Artificial Intelligence, Cyber Security, Information Systems, Computer theory and Scientific computing, and Software Engineering. The goal of these groups is to use technology as a means to address national and international issues and to foster national development. Additionally, there is a strong emphasis on interdisciplinary and transnational research on applications that encourages basic and advanced research.
-
-                        The Department of Computer Science is one of the departments of the College of Basic and Applied Sciences. The Department started with a 1-year certificate course in Data Processing which has currently been stopped. Many years down the line, the Department now runs a 4 -year degree programme in Computer Science. The Computer Science Department was presented with an award during the first Information Communication and Technology Award night. 
-                                        
-                        In today's rapidly changing world, maintaining global competitiveness requires the talents of a well-rounded, holistic individual with technical knowledge and business acumen to address challenging issues. The Computer Science Department is unique in developing skills in Information Technology.
-                    </span>
+                    Programmes, seminars and events organized by the department
                 </p>
-            </div>            
-                        
-        
-            
+                <a href="#">
+                    View upcoming and ongoing events
+                </a>
+            </div>
+        </div>
+        <div style="display: grid;
+                    grid-template-columns: 1fr 2fr 1fr;">
+            <div></div>
+            <div class="short_courses">
+                <h1>
+                    Short Courses we offer
+                </h1>
+                <p>
+                    Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.
+                </p>
+                <p>
+                    <b>
+                        Evening and Weekend Session Only
+                    </b>
+                </p>
+            </div>
+            <div></div>
+        </div>
+        <div class="admission">
+            <img src="admissions.jpeg">
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
+        
 
 
 
@@ -391,5 +478,7 @@
                 </div>
             </div>
         </footer>
-    </body>
+    </div>
+
+</body>
 </html>

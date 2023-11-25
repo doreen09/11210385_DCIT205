@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
     line-height: 1.5;
-    font-family:  'Poppins', sans-serif;;
+    font-family:  'Poppins', sans-serif;
 }
             *{
             
@@ -116,10 +116,61 @@ body{
                 line-height: 40px;
                
             }
+            .vision-board{
+               
+               display: grid;
+               grid-template-columns: 0.25fr 1fr;
+               margin-top: 70px;
+               margin-bottom: 0px;
+            }
+            .students img{
+                border-radius: 20px;
+                height: 300px;
+                width: 100%;
+                padding: 10px;
+            }
 
             .vision{
                 padding: 20px;
             }
+            
+           
+           .list a{
+               display: block;
+               padding: 20px 25px;
+               color: black;
+               text-decoration: none;
+               text-align: center;
+               font-size: 12px;
+               background-color: gray;
+           }
+           .dropdown li{
+               display: block;
+           }
+           .dropdown{
+               padding-left: 0%;
+               background: gray;
+               position: absolute;
+               z-index: 999;
+               display: none;
+
+           }
+           .list a:hover{
+               background:black;
+               color: white;
+               transition: 0.4s;
+           }
+           .list:hover ul.dropdown{
+               display: block;
+           }
+           .vision h1, h3{
+            color: darkslategrey;
+           }
+
+
+
+
+
 
             .container{
                 max-width: 1170px;
@@ -246,34 +297,55 @@ body{
             </div>
         
         </div>
-        <div class="vision">
-            <div>
-                <h1>
-                    DEPARTMENT OF COMPUTER SCIENCE
-                </h1>
-                <p>The Department of Computer Science is under the Faculty of Applied Sciences and has been training students in Higher National Diploma programme since 2007. Currently the department runs HND in Computer Science, Diploma in Information Technology, Diploma in Hardware and Networking, Diploma in Web Application and Database Management, and other certificate courses. The Department trains
-                    students in various fields of computing and equip them with knowledge for development and utilization of modern computing equipment thereby placing them in positions that are in high demand in society as well as research.</p>
-            </div>
-            <div>
-                <h3>
-                    VISION
-                </h3>
-                <p>
-                    To be a Centre of Excellence for producing high caliber, highly skilled, results oriented ICT graduates.
-                </p>
-            </div>
-            <div>
-                <h3>
-                    OBJECTIVES
-                </h3>    
-                    <p>
-                        To provide training for students in Certificate, HND and B.Tech programmes, set up “Software Houses” that will have different component of software preprogrammed to ease software development in Ghana. The result oriented and practical beneficiaries will
-                    </p>
-                <ul>
-                    <li>Setup modern computer systems for individuals and corporate bodies.</li>
-                    <li>Manage existing computer and neural systems.</li>
-                    <li>Develop various hardware components.</li>
+        <div class="students">
+            <img src="students_4.jpeg" height="400" >
+        </div>
+        <div class="vision-board">
+            <div class="about-col">
+                <ul class="list">
+                  <li>
+                      <a href="#">About Us ></a>
+                          <ul class="dropdown">
+                              <li><a href="Vision.html">Vision and Mission</a></li>
+                              <li><a href="About.html">Brief History</a></li>
+                              <li><a href="vice_chancellor.html">Vice Chancellor's Office</a></li>
+                              <li><a href="University_policies.html">University Policies</a></li>
+                          </ul>
+                        
+                  </li>
+                      
                 </ul>
+            </div>
+
+            <div class="vision">
+                <div>
+                    <h1>
+                        DEPARTMENT OF COMPUTER SCIENCE
+                    </h1>
+                    <p>The Department of Computer Science is under the Faculty of Applied Sciences and has been training students in Higher National Diploma programme since 2007. Currently the department runs HND in Computer Science, Diploma in Information Technology, Diploma in Hardware and Networking, Diploma in Web Application and Database Management, and other certificate courses. The Department trains
+                        students in various fields of computing and equip them with knowledge for development and utilization of modern computing equipment thereby placing them in positions that are in high demand in society as well as research.</p>
+                </div>
+                <div>
+                    <h3>
+                        VISION
+                    </h3>
+                    <p>
+                        To be a Centre of Excellence for producing high caliber, highly skilled, results oriented ICT graduates.
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        OBJECTIVES
+                    </h3>    
+                        <p>
+                            To provide training for students in Certificate, HND and B.Tech programmes, set up “Software Houses” that will have different component of software preprogrammed to ease software development in Ghana. The result oriented and practical beneficiaries will
+                        </p>
+                    <ul>
+                        <li>Setup modern computer systems for individuals and corporate bodies.</li>
+                        <li>Manage existing computer and neural systems.</li>
+                        <li>Develop various hardware components.</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -283,7 +355,14 @@ body{
 
 
 
-
+       
+       
+       
+       
+       
+       
+       
+       
         <footer class="footer">
             <div class="container">
                 <div class="row">

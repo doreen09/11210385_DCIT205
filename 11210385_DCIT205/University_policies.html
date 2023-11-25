@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            University Policies
+        </title>
+        <meta charset="UTF-8">
+<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
+
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family:  'Poppins', sans-serif;;
+}
+            *{
+            
+                box-sizing: border-box;
+            }
+           body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0%;
+            color: darkslategray;
+           }
+           .logo{
+            width: 200;
+            height: 200;
+            background-color: black;
+            
+        
+           }
+           nav{
+                 margin-top: 0px;
+                 background:black ; 
+                 height: 100%;
+                 width: 100%;
+                 top: 0%;
+                 font-family: Arial, Helvetica, sans-serif;
+                 margin-bottom: 0px 0px 0px 0px;
+                 padding: 0%;
+             }
+             .navigation-bar{
+               position: relative;
+               margin:0%;
+              
+             }
+             nav a:hover{
+                color: black;
+                background-color: whitesmoke;
+             } 
+             nav ul{
+                 
+                 margin-right: 20px;
+              
+                  
+             }
+             nav ul li{
+                 display: inline-block;
+                 line-height: 35px ;
+                 margin: 0 5px;
+                 align-items: center; 
+             }
+             nav ul li a{
+                 color:white;
+                 font-size:17px;
+                 text-transform:uppercase;
+                 padding: 7px 13px;
+                 border-radius: 3px;
+                 
+             }
+            .title{
+                background-color: black;
+            }
+            .school{
+                color: whitesmoke;
+                display: block;
+                font-family: Arial, Helvetica, sans-serif;
+                font-stretch: semi-expanded;
+               
+            }
+            .department{
+                display: block;
+                font-size: 35px;
+                color: whitesmoke;
+                margin-bottom: 20px;
+                margin-top: 0px;
+            }
+            .dept{
+               margin-top: 20px;
+               background-color: whitesmoke;
+            }
+            .search{
+                background-color:black;
+                
+            }
+            .search-box{
+               
+                top: 50%;
+                transform: translate(-50% -50%);
+                background: whitesmoke;
+                height: 25px;
+                border-radius: 20px;
+                padding: 0;
+                margin: 40px 0px 0px;
+                padding-bottom: 0px;
+
+            }
+            .search-txt{
+                border: none;
+                background: none;
+                outline: none;
+                color: black;
+                padding:0;
+                float: inline-start;
+                font-size: 16px;
+                transition: 0.5s;
+                line-height: 40px;
+               
+            }
+            .uni_policies{
+               
+               display: grid;
+               grid-template-columns: 0.25fr 1fr;
+               margin-top: 70px;
+               margin-bottom: 0px;
+            }
+            .list a{
+               display: block;
+               padding: 20px 25px;
+               color: black;
+               text-decoration: none;
+               text-align: center;
+               font-size: 12px;
+               background-color: gray;
+           }
+           .dropdown li{
+               display: block;
+           }
+           .dropdown{
+               padding-left: 0%;
+               background: gray;
+               position: absolute;
+               z-index: 999;
+               display: none;
+
+           }
+           .list a:hover{
+               background:black;
+               color: white;
+               transition: 0.4s;
+           }
+           .list:hover ul.dropdown{
+               display: block;
+           }
+           .policies .definitions td, tr{
+                border: 1.5px solid grey;
+               
+           }
+          
+           .policies p table th, td{
+                padding: 10px;
+           }
+           .policies .definitions{
+                margin-bottom: 20px;
+                border-collapse: collapse;
+                width: 70%;
+           }
+           .policies .content{
+                text-align: justify;
+                padding-left: 10px;
+                padding-right: 30px;
+           }
+           .policies .heading{
+                padding-left: 20px;
+           }
+
+
+
+
+           
+
+
+
+            .container{
+                max-width: 1170px;
+
+                margin: auto;
+            }
+            .row{
+                display:flex;
+                flex-wrap: wrap;
+
+            }
+            .ul{
+                list-style: none;
+            }
+            .footer{
+                background-color: black;
+                padding: 70px 0;
+            }
+            .footer-col{
+                width:25%;
+                padding: 0 15px;
+
+            }
+            .footer-col h4{
+                font-size: 18px;
+                color:whitesmoke;
+                text-transform: capitalize;
+                margin-bottom: 35px;
+                font-weight: 500;
+                position: relative;
+           
+            }
+            .footer-col h4::before{
+                content: '';
+                position:absoluste;
+                left: 0;
+                bottom: -10px;
+                background-color: red;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+            .footer-col ul li:not(:last-child){
+                margin-bottom: 10px;
+            }
+            .footer-col ul li a{
+                font-size: 16px;
+                text-transform:capitalize;
+                color: whitesmoke;
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+                color: #ffffff;
+                padding-left: 8px ;
+
+            }
+            @media(max-width: 767px){
+                .footer-col{
+                    width:50%;
+                    margin-bottom:30px;
+                }
+            }
+            @media(max-width: 767px){
+                .footer-col{
+                    width:100%;
+                }
+            }
+            
+
+        </style>
+
+
+
+    </head>
+    <body>
+        
+        <div class="mainbody">
+            <nav  > 
+                <ul style="margin-top: 0px; margin-bottom: 0px;">
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="students.html">Students</a></li>
+
+                </ul>
+            </nav> 
+        </div>
+        <div>
+            <div style="
+                margin-top: 0px;
+                display: grid;
+                grid-template-columns: 0.5fr 3fr 1fr;
+                background-color: whitesmoke;
+                z-index: -100;
+                margin-bottom: 0px;
+                ">
+                <div class="logo"> 
+                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
+                </div>
+                <div class="title">
+                    <div class="department">
+                        <p>Computer Science Department</p>  
+                    </div>
+                    <div class="school">
+                        <p>University Of Ghana</p>
+                    </div>
+                </div>  
+                <div class="search">
+                    <div class="search-box">
+                        <input class="search-txt" type="text" width="200" placeholder="Search...">
+                      
+                    
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="uni_policies">
+            <div class="about-col">
+                <ul class="list">
+                <li>
+                    <a href="#">About Us > </a>
+                        <ul class="dropdown">
+                            <li><a href="Vision.html">Vision and Mission</a></li>
+                            <li><a href="About.html">Brief History</a></li>
+                            <li><a href="vice_chancellor.html">Vice Chancellor's Office</a></li>
+                            <li><a href="University_policies.html">University Policies</a></li>
+                        </ul>
+                </li>
+                    
+                </ul>
+            </div>
+            <div class="policies">
+                <div class="heading">
+                    <h1>
+                        Academic Quality Assurance Policy
+                    </h1>
+                    <h5>
+                        Purpose of the Academic Quality Assurance Policy
+                    </h5>
+
+                </div>
+                <div class="content">
+                
+                    <p>
+                        The University of Ghana is committed to the assurance of 
+                        the quality of its academic programmes. This assurance is 
+                        expressed broadly in the University’s mission statement “to 
+                        create an enabling environment that makes University of Ghana 
+                        increasingly relevant to national and global development 
+                        through cutting-edge research as well as high quality teaching 
+                        and learning.” The overall goal of this Academic Quality 
+                        Assurance Policy (AQAP) is to outline the principles and 
+                        procedures adopted by the University to demonstrate that 
+                        its institutional responsibility for awarding its degrees is being 
+                        satisfactorily discharged. The quality of programmes of the 
+                        University is shaped currently by a 10-year Strategic Plan (2014-
+                        2024) focused on nine priority areas that provide a mechanism 
+                        to operationalise the University’s mission and practices
+                        <ol type="i">
+                            <li>
+                                Create a vibrant intellectual climate that stimulates relevant cutting-edge research and community engagement. 
+                            </li>
+                            <li>Promote academic excellence using the highest international standards of teaching, learning and leadership development.
+                            </li>
+                            <li>
+                                Provide an environment that will ensure fulfilling experiences for internal stakeholders.
+                            </li>
+                            <li>
+                                Create the best environment for equal opportunity in gender and diversity
+                            </li>
+                            <li>
+                                Overhaul all governance arrangements to achieve greater effectiveness and efficiency.
+                            </li>
+                            <li>
+                                Enhance the mobilisation and management of resources at unit and central administration levels.
+                            </li>
+                            <li>
+                                Strengthen the management of the University’s assets and facilities
+                            </li>
+                            <li>
+                                Maintain and enforce structures and processes for system-wide monitoring and evaluation.
+                            </li>
+                            <li>
+                                Build Stakeholder confidence in the capabilities of the university.
+                            </li>
+                        </ol>
+                        The University adopted a Collegiate Governance System in 2014, which allows the monitoring of academic quality at an intermediate central administrative level in its four Colleges, namely, Basic and Applied Sciences, Education, Health Sciences, and Humanities. 
+                        The University’s operations are governed by the highest level of integrity, ethical standards, openness and fairness underpinned by a reward and recognition system that is performance driven. This institutional culture encourages students to become committed to academic excellence.
+                    
+                    
+                        <h5>
+                            Aims
+                        </h5>
+                
+                            The aims of the Academic Quality AssurancePolicy shall be to:</p>
+                            <ol type="i">
+                                <li>satisfy the internal and external stakeholders, that the whole 
+                                    range of resources, across academic and support areas, is of 
+                                    the highest possible quality.
+                                </li>
+                                <li>demonstrate that standards of awards are appropriate and that 
+                                    resources meet the requirements of the academic infrastructure 
+                                    and other external benchmarks.
+                                </li>
+                                <li>ensure institutional commitment not only to quality assurance 
+                                    but also to the enhancement of the quality of the students’ 
+                                    experience.
+                                </li>
+                                <li>implement the University’s approach to quality assurance and 
+                                    enhancement in an efficient and effective manner.
+                                </li>
+                                <li>adopt the approach of integrating, as far as possible, measures 
+                                    and methods into routine procedures to reinforce both the 
+                                    philosophy and the practice of quality assurance as integral 
+                                    parts of normal operation.
+                                </li>
+                                <li>provide accessible and adequate infrastructure for dealing 
+                                    with quality assurance at all levels and for disseminating good 
+                                    practice.
+                                </li>  
+                            </ol>
+                            In setting these aims, it is realised that factors such as funding, logistics, availability of sufficient and well-trained staff as well as challenges in information flow militate against the full implementation of the AQAP. Although these limiting factors are 
+                            common to all higher education entities, the University of Ghana requires a clearly stated position on its quality assurance position and methods to fulfil its aspiration and mission statement. We will adopt formal, documented expectations accompanied by more 
+                            tightly prescribed methods of monitoring both online (virtual) and face-to-face teaching, learning and research.  
+                            <table>
+                                <tr>
+                                        <td>
+                                            <b>
+                                                Word/Term
+                                            </b>
+                                        </td>
+                                        <td>
+                                            <b>
+                                                Definition
+                                            </b>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Academic Units
+                                    </td>
+                                    <td>
+                                        Comprises various departments, divisions, schools, institutes, colleges, and centres in the University offering programmes and courses leading to the award of a qualification.   
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Affiliate Institutions
+                                    </td>
+                                    <td>
+                                        Academic institutions affiliated to the University of Ghana, where University of Ghana degrees are awarded
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Council
+                                    </td>
+                                    <td>
+                                        Council of the University of Ghana as established by the Act
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Functions of Council
+                                    </td>
+                                    <td>
+                                        Includes powers and duties
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Lecturer/Teeaching Staff
+                                    </td>
+                                    <td>
+                                        Staff involved in the formal presentation of teaching material to students as well as the supervision of student long essays, theses and dissertations
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Policy
+                                    </td>
+                                    <td>
+                                        A statement outlining non-discretionary principles and intentions governing University practice
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        QUality Assurance
+                                    </td>
+                                    <td>
+                                        Systems, procedures, resources, and information devoted to maintaining and improving standards and quality. It covers teaching, learning, research opportunities and student support service
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Staff
+                                    </td>
+                                    <td>
+                                        All staff i.e., Junior Staff, Senior Staff and Senior Members unless otherwise specified
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Support Services
+                                    </td>
+                                    <td>
+                                        Non-academic or ancillary departments of the University required for smooth operations of the University
+                                    </td>
+                                </tr>
+                            </table>
+                        
+                        
+                            <h3>
+                                Assessment of Teaching of Courses
+                            </h3>
+                            <h5>
+                                College Academic Board/ School Management Committee
+                            </h5>
+                                The College Academic Board and the School Management Committee are responsible for developing and regulating internal guidelines related to academic programmes, including teaching, learning, research, and assessment. The Board and the Committee shall have oversight responsibility for all committees established for these purposes. They will receive advice and recommendations on 
+                                issues pertaining to teaching, learning, research and assessment at the College/School level, and report to relevant University committees.
+                            <h5>
+                                Departments, Institutes, Centres and other Academic Units
+                            </h5>
+                                Departments, Institute, Centres and other Academic Units shall be responsible for undergraduate and graduate level teaching and research. In undertaking these responsibilities, these Units 
+                                will adhere to any guideline, provided by the College Academic Board and School Management Committees as well any teaching standards adopted by the University.
+                            <h5>
+                                Programme/Course Review and Accreditation Committees
+                            </h5>
+                                All Academic units must have in place Programmes/Course Review and Accreditation Committee comprising at least three faculty members, one undergraduate and one post-graduate student, a representation from industry where appropriate, for the purpose of 
+                                conducting curriculum reviews in accordance with the University policy guidelines
+                            <h5>
+                                Course Review and New Course Development
+                            </h5>
+                            The purpose of the Course Review and Development Procedure is to ensure understanding and a standardised approach concerning curriculum changes and that the appropriate standard of content is assured. The Academic Board approves all additions, deletions, and  changes (including changes in the method of delivery) of courses 
+                            for the University of Ghana using the procedure for Reviewing and Determining Approval (See Annex 1 & 2). The review process will include departmental recommendations as well as School Management Committee/College Board and the School Graduate Studies where appropriate, as well as the CAQAC. It should be noted 
+                            that even where a new programme draws on existing courses, there is the need for accreditation by the Ghana Tertiary Education Commission (GTEC). This additional time element needs to be allowed for in the planning for the introduction of new programmes
+                            <h5>
+                                External Invigilators
+                            </h5>
+                            In line with the policy of the University of Ghana, the services of external examiners will be restricted to graduate programmes for only external examination of course, dissertations and theses. The services of an External examiner shall be extended to undergraduate programmes only at the request of Academics 
+                            in exceptional circumstances, e.g. arbitration, moderation, etc. External examiners shall be nominated by the College Academic Boards on the recommendation of an Academic Unit and shall be appointed by the Academic Board of the University. Annual reports from external examiners should primarily be submitted to Heads 
+                            of Department, Deans and Provost, with the Pro-Vice-Chancellor, Academic and Student Affairs copied.
+                            <h5>
+                                Student Evaluation of Teaching and Courses
+                            </h5>
+                            Student evaluations of course instructors’ teaching and course content is important for the teaching and learning process. It helps course instructors modify their educational methods to align with student learning needs and can be used as the basis for 
+                            evaluations of teaching effectiveness in administrative decisions such as promotion. Rubrics for evaluating teaching will be provided by the AQAU. However, Academic Units are encouraged to develop internal measures to assess and improve the quality of teaching and learning during the semester. Faculty-led evaluation of teaching 
+                            may include soliciting feedback from students after the first lecture, mid-semester evaluation or after key milestones defined by the course instructor/lecturer. The AQAU may periodically request for such reports. Such faculty-led evaluation processes may also include online media on the UG LMS such as Blogs, Electronic surveys, Focus Group Discussions, informal feedback. Heads 
+                            of Departments must take into consideration international best practices and ensure that course instructors/lecturers emphasise the seven principles of good practice and effective teaching, which are:
+                            <ol type="i">
+                                <li>Encourage student-faculty contact</li>
+                                <li> Develop reciprocity and cooperation among students</li>
+                                <li> Use active learning techniques</li>
+                                <li>Give prompt feedback</li>
+                                <li>Emphasise time-on-task</li>
+                                <li>Communicate high expectations</li>
+                                <li>Respect diverse talents and ways of learning</li>
+                            </ol>
+                            <h3>
+                                Student Evaluation of Courses and Programmes
+                            </h3>
+                            <h5>
+                                End of Semester Evaluation Process
+                            </h5>
+                            The University through the AQAU should ensure that there is a procedure in place for dealing with student evaluation of teaching and courses at the end of every semester and the results communicated to the lecturers for that course. All students taking
+                            the course should complete a questionnaire that will be prepared by the AQAU. The questionnaire will be analysed by the AQAU and the results sent back to the lecturer through the College, School/Centre and Departments. The Head of Department is to ensure 
+                            that key issues that impact on the course and teaching quality are discussed with the lecturer involved. Where it is determined that an issue cannot be addressed by the Department, the Head of Department should ensure that it is brought to the attention of the 
+                            University via the Dean to the Provost of the College. Everything should be done under strict confidentiality. The Provost of the College would serve as a discussant in cases where Deans are the course instructors. The findings should be communicated to 
+                            students indicating any actions to be taken to address any problems raised, or reasons for not taking action.
+                            <h5>
+                                Response Rate and Reporting Structure
+                            </h5>
+                            The AQAU will undertake course and lecture evaluation at the end of every semester. The response rate for an evaluation should be more than 40%. The AQAU should consider ways in which the response rate might be improved in situations where the response 
+                            rate is low. Course and lecturer evaluation reports should be forwarded to the lecturer involved through the College, School/Centre and the Department
+                            <h3>Guidelines for Introducing Programmes and Courses</h3>
+                            <h5>Programmes</h5>
+                            <p>
+                                Introduction
+                            </p>
+                            Name the programme and outline its envisaged contribution to the mission of the University.
+                            <h5>
+                                Rationale
+                            </h5>
+                            <ol type="i">
+                                <li>
+                                    Must explain what motivated the programme proposal by 
+                                    giving a brief history of its conception, including proposals 
+                                    by Departmental Programmes Review Committees (DPRC) 
+                                    as well as antecedent events and contributions and inputs of 
+                                    individuals providing the basis for the proposal.
+                                </li>
+                                <li>
+                                    Survey the programmes already on offer in the School/Centre 
+                                    and the University at large in order to feature the gap to be 
+                                    filled by a new one. Explain why the current offerings of the 
+                                    School/Centre are insufficient to meet the objectives of the 
+                                    new programme proposed. Show how this programme will 
+                                    contribute to a tighter integration of the interdisciplinary goals 
+                                    of the University. Describe, for instance, how its adoption by 
+                                    the School will enhance the realisation of the School’s mission 
+                                    and its efforts to collaborate with other Schools, or detail how 
+                                    the programme will outreach beyond the University’s current 
+                                    limitations in servicing potential employers and students both 
+                                    local and foreign.
+                                </li>
+                                <li>
+                                    Describe the intended beneficiaries, i.e. explain where and how 
+                                    the new programme fits into existing or anticipated scholarly 
+                                    demands or creative, and non-academic market-driven needs. 
+                                    Explain what the programme will offer its graduates which they 
+                                    would otherwise not be able to procure.
+
+                                </li>
+                                <li>
+                                    List the positive implications of running the programme for the School/Centre and the University overall.
+                                </li>
+                            </ol>
+                            <h5>
+                                Eligibility Criteria
+                            </h5>
+                            <ol type="i">
+                                <li>
+                                    Specify exactly how the intended targets will access the programme.
+                                    <p>State the eligibility requirements including pre-requisites.</p>
+                                </li>
+                                <li>Make explicit the purpose of the programme vis-à-vis 
+                                    particular categories of students
+                                </li>
+                            </ol>
+                            <h5>
+                                \MIssions, Aims and Objectives
+                            </h5>
+                            In the light of the mission of the School/Center and the University,
+                            <ol type="i">
+                                <li>
+                                state the mission of the programme
+                                </li>
+                                <li>
+                                state what the scope of academic performance will be and what students are expected to know and value
+                                </li>     
+                                <li>
+                                    describe what students are expected to do (at cognitive, affective and psychomotor domains).
+                                </li>
+                            </ol>
+                            <h5>Programme Structure Design</h5>
+                            <ol type="i">
+                                <li>
+                                    Spell out the courses comprising the programme
+                                </li>
+                                <li>
+                                    Ensure coherence, consistency as well as thematic progression and avoid redundancy of the course content
+                                </li>
+                                <li> 
+                                    Rationalise the allocation of credits both for internal coherence and compatibility with other programme offerings.
+                                </li>
+                                <li>
+                                    Provide a detailed reading list for each course proposal. 
+                                    Focus on the currency of texts where appropriate and avoid 
+                                    redundancies. Be sure that the seminal works in the field for 
+                                    each course are captured.
+                                </li>
+                            </ol>
+                            <h5>
+                                Programme Feasibility
+                            </h5>
+                            Evaluate the capacity of the College/School to accommodate 
+                            the demands of the new programme in terms of credit allocation, 
+                            financial needs, space demands and infrastructural pressures. 
+                            Detail how the programme might avail existing resources. Evaluate 
+                            the potential of faculties and other institutes that may benefit from 
+                            the programme to gauge whether there is the potential for sharing 
+                            costs and other resources. State how the programmes initiated by 
+                            funding from external agencies, will be sustained when such funds 
+                            expire.
+                            <h5>
+                                Progamme Appraisal and Monitoring
+                            </h5>
+                            State briefly the mechanisms of appraising the programme’s 
+                            progress and effectiveness in meeting its aims and objectives. 
+                            State the diagnostic measures that might supplement the standard 
+                            course evaluation structures to track the programme’s impact 
+                            throughout and beyond its duration.
+                            <h5>
+                                Costing
+                            </h5>
+                            <ol type="i">
+                                <li>
+                                    List all the costs of the programme to the College/School and 
+                                    the University: i.e. what financial resources, teaching personnel, 
+                                    supporting staff, space, logistics, books, related teaching 
+                                    materials will be deflected for the programme.
+                                </li>
+                                <li>
+                                    Determine the initial outlay of expenses in setting up the 
+                                    programme and prepare an itemised budget.
+                                </li>
+                                <li>Indicate the size of academic staff and supporting administrative 
+                                    and junior staff requirements
+                                </li>
+                                <li>
+                                    With respect to academic staff, suggest some areas of expertise 
+                                    to guide recruitment outreach
+                                </li>
+                                <li>Project appropriate figures, as if for a stable currency over a 
+                                    five-year period, to reflect total staff emoluments, recurrent 
+                                    expenditures and overhead costs of the programme
+                                </li>
+
+                            </ol>
+                            <h3>
+                                Courses
+                            </h3>
+                            <p>
+                                Introduction
+                            </p>
+                            Label and define the course offering following standard University 
+                            practice. Provide a brief introductory description (two or three 
+                            sentences) as it might appear in a course handbook.
+                            <h3>
+                                Rationale
+                            </h3>
+                            <ol>
+                                <li>
+                                    Justify the proposal either by briefly explaining the provenance 
+                                    or history of the intention to mount the course by citing an 
+                                    overview of conditions, events and intentions that led to the 
+                                    proposal. Alternatively, explain whether it relieves a course 
+                                    already established whose content has become overstretched; 
+                                    or replaces or reconstructs an outmoded course offering; or 
+                                    consolidates other established and undersubscribed courses 
+                                    with outmoded or ill-articulated syllabi
+
+                                </li>
+                                <li>
+                                    Survey the status quo of the Department’s offerings and 
+                                    those of others in the School and other Schools, to eliminate 
+                                    redundancy and to establish that a genuine gap exists
+
+                                </li>
+                                <li> 
+                                    Describe the intended beneficiaries, i.e., explain where/how the 
+                                    new syllabus fits into anticipated scholarly demands or creative 
+                                    and non- academic market-driven needs.
+
+                                </li>
+                                <li>
+                                    List the positive implications of running the course. Explain 
+                                    whether it will attract students from other departments with 
+                                    minors and combined majors. Will it serve students beyond the 
+                                    School? Will it especially serve foreign students interests? Will 
+                                    it provide a future need of local students?
+
+                                </li>
+                            </ol>
+                            <h5>
+                                Eligibility Criteria
+                            </h5>
+                            Specify exactly how the intended targets will access the course. 
+                            State the eligibility requirements including Pre-requisite, Aims, 
+                            Objectives, and Intended Learning Outcomes.
+                            <ol>
+                                <li>Make explicit aims and objectives (cognitive, affective 
+                                    and psychomotor) of the course
+
+                                </li>
+                                <li>
+                                    State the anticipated level of achievement.
+                                </li>
+                                <li>
+                                    Suggest indicators of minimal and maximal attainments for 
+                                    students at the end of the course; i.e. describe the sorts of skill 
+                                    or experience or scholarship or breadth of reading the student 
+                                    would have been expected to accomplish.
+
+                                </li>
+                            </ol>
+                            <h5>
+                                Course Outline
+                            </h5>
+                            Provide a sample of lecture topics (or practical and technical skills 
+                            for creative art courses) in ordered chronology in a weekly schedule. 
+                            Indicate which of these lend themselves to tutorial support utilising 
+                            teaching assistants if appropriate. As may be applicable, indicate 
+                            the curriculum design: chronological, problem-solving, debate structured, text-centred and/or skill-centred. This will justify the 
+                            mode of assessment.
+                            <h5>
+                                Additional Teaching/Learning Resources
+                            </h5>
+                            Indicate equipment presupposed for effective teaching: overhead 
+                            projectors, computer access, tape recorders, theatre access, 
+                            library use, motor vehicle for fieldwork, etc. Determine if other 
+                            Departments, Faculties or Institutes whose students might be 
+                            utilizing the course can assist in the provision of equipment.
+                            <h5>
+                                Assessment and Evaluation
+                            </h5>
+                            Briefly spell out measures put in place for student performance 
+                            evaluations, apart from or in lieu of a final examination, if any, i.e., term 
+                            papers, fieldwork, continuous assessment test, group projects, and 
+                            homework assignments. Offer possible mechanisms for assessing 
+                            the course’s effectiveness in meeting set objectives and learning 
+                            outcomes. Give diagnostic measures that might supplement the 
+                            standard course evaluation structures to track the course’s impact 
+                            throughout and beyond its duration
+
+                            <h5>
+                                Costing
+                            </h5>
+                            State the resources (human, financial, physical) required for the 
+                            introduction of the course. Further, present curriculum vitae 
+                            of faculty earmarked to teach the course or present areas of 
+                            specialisation appropriate to guide recruitment
+                    
+                
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>In Our Department</h4>
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our People</a></li>
+                            <li><a href="#">Research Activities</a></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Our Programmes</h4>
+                        <ul>
+                            <li><a href="#">BSc. Computer Science</a></li>
+                            <li><a href="#">BSc. Information Technology</a></li>
+                            <li><a href="#">MSc/MPhil Computer Science</a></li>
+                            <li><a href="#"></a>MSc/MPhil Information Technology</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">College Of Basic and Applied Science</a></li>
+                            <li><a href="#">Announcement</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Address</h4>
+                        <ul>
+                            <li><a href="#">Department of Computer Science</a></li>
+                            <li><a href="#">email: dcs@ug.edu.gh</a></li>
+                            <li><a href="#">Mobile: 0241197511/0201733552</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
