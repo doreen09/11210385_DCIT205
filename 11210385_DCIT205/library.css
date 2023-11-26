@@ -1,24 +1,16 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Home
-        </title>
-        <meta charset="UTF-8">
-<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
 
-        <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
     line-height: 1.5;
     font-family:  'Poppins', sans-serif;;
+    background-color: whitesmoke;
 }
             *{
             
                 box-sizing: border-box;
             }
            body{
-          
+            font-family: 'Times New Roman', Times, serif;
             margin: 0%;
            }
            .logo{
@@ -92,7 +84,7 @@ body{
                 background-color:black;
                 
             }
-            .search-box{
+            .search-box input{
                
                 top: 50%;
                 transform: translate(-50% -50%);
@@ -114,8 +106,112 @@ body{
                 font-size: 16px;
                 transition: 0.5s;
                 line-height: 40px;
+                
                
             }
+            .content{
+                background-color: whitesmoke;
+            }
+            .content .content_title h1{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: gray;
+                margin-top: 0%;
+                padding: 10px;
+                text-shadow: 1px 1px white ;
+            }
+
+            
+            .intro p{
+                font-size: 24px;
+                display: grid;
+                grid-template-columns: 1.5fr 1.5fr;
+                justify-content: center;
+                text-align: justify;
+                color: black;
+                margin: 20px;
+                padding: 30px;
+                background-color: whitesmoke;
+                margin-top: 0px;
+
+            }
+            .intro img{
+                border-radius: 12px;
+                display: block;
+                margin: auto;
+                width: 80%;
+                
+            }
+            .intro p .intro_message i{
+                margin-top: 40px;
+                padding: 40px;
+                
+                
+            }
+            .library_pic img{
+                border-radius: 18px;
+                
+               width: 80%;
+                padding: 10px;
+                display: block;
+                margin: auto;
+            }
+            .library .library-col{
+               
+               display: grid;
+               grid-template-columns: 0.25fr 1fr;
+               margin-top: 70px;
+               margin-bottom: 0px;
+           }
+           .library .library-col .library_sections h1{
+                color:darkgrey;
+           }
+           .library .library-col .library_sections h3{
+                color:gray;
+           }
+           .library .library-col .library_sections{
+            padding-left: 20px;
+            margin-bottom: 40px;
+           }
+           .list a{
+               display: block;
+               padding: 20px 25px;
+               color: black;
+               text-decoration: none;
+               text-align: center;
+               font-size: 12px;
+               background-color: gray;
+           }
+           .dropdown li{
+            display: block;
+           }
+           .dropdown{
+               padding-left: 0%;
+               background: gray;
+               position: absolute;
+               z-index: 999;
+               display: none;
+
+           }
+           .list a:hover{
+               background:black;
+               color: white;
+               transition: 0.4s;
+           }
+           .list:hover ul.dropdown{
+               display: block;
+               transition: 0.5s;
+           }
+           
+
+
+
+
+
+
+
+
+
             .container{
                 max-width: 1170px;
 
@@ -186,109 +282,3 @@ body{
                     width:100%;
                 }
             }
-            
-
-        </style>
-
-
-
-    </head>
-    <body>
-        
-        <div class="mainbody">
-            <nav  > 
-                <ul style="margin-top: 0px; margin-bottom: 0px;">
-                <li><a class="active" href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="academics.html">Academics</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="staff.html">Staff</a></li>
-                <li><a href="students.html">Students</a></li>
-
-                </ul>
-            </nav> 
-        </div>
-        <div>
-            <div style="
-                margin-top: 0px;
-                display: grid;
-                grid-template-columns: 0.5fr 3fr 1fr;
-                background-color: whitesmoke;
-                z-index: -100;
-                margin-bottom: 0px;
-                ">
-                <div class="logo"> 
-                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
-                </div>
-                <div class="title">
-                    <div class="department">
-                        <p>Computer Science Department</p>  
-                    </div>
-                    <div class="school">
-                        <p>University Of Ghana</p>
-                    </div>
-                </div>  
-                <div class="search">
-                    <div class="search-box">
-                        <input class="search-txt" type="text" width="200" placeholder="Search...">
-                      
-                    
-                    </div>
-                </div>
-            </div>
-        
-        </div>
-        <p>Start here....</p>
-
-
-
-
-
-
-
-
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <h4>In Our Department</h4>
-                        <ul>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Our People</a></li>
-                            <li><a href="#">Research Activities</a></li>
-                        
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Our Programmes</h4>
-                        <ul>
-                            <li><a href="#">BSc. Computer Science</a></li>
-                            <li><a href="#">BSc. Information Technology</a></li>
-                            <li><a href="#">MSc/MPhil Computer Science</a></li>
-                            <li><a href="#"></a>MSc/MPhil Information Technology</li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#">College Of Basic and Applied Science</a></li>
-                            <li><a href="#">Announcement</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">News</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Address</h4>
-                        <ul>
-                            <li><a href="#">Department of Computer Science</a></li>
-                            <li><a href="#">email: dcs@ug.edu.gh</a></li>
-                            <li><a href="#">Mobile: 0241197511/0201733552</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-
-</body>
-</html>

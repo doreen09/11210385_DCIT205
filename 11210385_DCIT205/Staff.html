@@ -6,259 +6,7 @@
         </title>
         <meta charset="UTF-8">
 <meta name="viewport" csontent="width=device-width, initial-scale=1.0">
-
-        <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-    line-height: 1.5;
-    font-family:  'Poppins', sans-serif;;
-}
-            *{
-            
-                box-sizing: border-box;
-            }
-           body{
-          
-            margin: 0%;
-           }
-           .logo{
-            width: 200;
-            height: 200;
-            background-color: black;
-            
-        
-           }
-           nav{
-                 margin-top: 0px;
-                 background:black ; 
-                 height: 100%;
-                 width: 100%;
-                 top: 0%;
-                 font-family: Arial, Helvetica, sans-serif;
-                 margin-bottom: 0px 0px 0px 0px;
-                 padding: 0%;
-             }
-             .navigation-bar{
-               position: relative;
-               margin:0%;
-              
-             }
-             nav a:hover{
-                color: black;
-                background-color: whitesmoke;
-             } 
-             nav ul{
-                 
-                 margin-right: 20px;
-              
-                  
-             }
-             nav ul li{
-                 display: inline-block;
-                 line-height: 35px ;
-                 margin: 0 5px;
-                 align-items: center; 
-             }
-             nav ul li a{
-                 color:white;
-                 font-size:17px;
-                 text-transform:uppercase;
-                 padding: 7px 13px;
-                 border-radius: 3px;
-                 
-             }
-            .title{
-                background-color: black;
-            }
-            .school{
-                color: whitesmoke;
-                display: block;
-                font-family: Arial, Helvetica, sans-serif;
-                font-stretch: semi-expanded;
-               
-            }
-            .department{
-                display: block;
-                font-size: 35px;
-                color: whitesmoke;
-                margin-bottom: 20px;
-                margin-top: 0px;
-            }
-            .dept{
-               margin-top: 20px;
-               background-color: whitesmoke;
-            }
-            .search{
-                background-color:black;
-                
-            }
-            .search-box{
-               
-                top: 50%;
-                transform: translate(-50% -50%);
-                background: whitesmoke;
-                height: 25px;
-                border-radius: 20px;
-                padding: 0;
-                margin: 40px 0px 0px;
-                padding-bottom: 0px;
-
-            }
-            .search-txt{
-                border: none;
-                background: none;
-                outline: none;
-                color: black;
-                padding:0;
-                float: inline-start;
-                font-size: 16px;
-                transition: 0.5s;
-                line-height: 40px;
-               
-            }
-            .picture_with_students img{
-                width: 100%;
-                border-radius: 18px;
-                height: 400px;
-                margin-top: 10px;
-            }
-            .content_title{
-                font-stretch: extra-expanded;
-                font-size: 18px;
-                text-align: center;
-                color: darkslategray;
-                
-            }
-            .staff{
-                background-color: whitesmoke;
-            }
-            .staff .chancellor img{
-                border-radius: 18px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 50%;
-                height: 300px;
-                padding-bottom: 10px;
-                padding-left: 20px;
-                margin-left: 40px;
-            }
-            .staff .vice_chancellor img{
-                border-radius: 18px;
-                align-content: center;
-                height: 300px;
-                width: 50%;
-                padding-bottom: 10px;
-                padding-left: 20px;
-                margin-left: 40px;
-            }
-            .staff .information{
-                padding-left:50px;
-            }
-            .staff .hod img{
-                border-radius: 18px;
-                height: 300px;
-                width: 50%;
-                padding-bottom: 10px;
-                padding-left: 20px;
-                margin-left: 40px;
-            }
-            .staff .course_advisor img{
-                border-radius: 18px;
-                height: 300px;
-                width: 50%;
-                padding-bottom: 10px;
-                padding-left: 20px;
-                margin-left: 40px;
-            }
-            .staff .lecturer_1 img{
-                border-radius: 18px;
-                height: 300px;
-                width: 50%;
-                padding-left: 20px;
-                margin-left: 40px;
-            }
-          
-
-
-
-
-
-
-
-            .container{
-                max-width: 1170px;
-
-                margin: auto;
-            }
-            .row{
-                display:flex;
-                flex-wrap: wrap;
-
-            }
-            .ul{
-                list-style: none;
-            }
-            .footer{
-                background-color: black;
-                padding: 70px 0;
-            }
-            .footer-col{
-                width:25%;
-                padding: 0 15px;
-
-            }
-            .footer-col h4{
-                font-size: 18px;
-                color:whitesmoke;
-                text-transform: capitalize;
-                margin-bottom: 35px;
-                font-weight: 500;
-                position: relative;
-           
-            }
-            .footer-col h4::before{
-                content: '';
-                position:absoluste;
-                left: 0;
-                bottom: -10px;
-                background-color: red;
-                height: 2px;
-                box-sizing: border-box;
-                width: 50px;
-            }
-            .footer-col ul li:not(:last-child){
-                margin-bottom: 10px;
-            }
-            .footer-col ul li a{
-                font-size: 16px;
-                text-transform:capitalize;
-                color: whitesmoke;
-                text-decoration: none;
-                font-weight: 300;
-                color: #bbbbbb;
-                display: block;
-                transition: all 0.3s ease;
-            }
-            .footer-col ul li a:hover{
-                color: #ffffff;
-                padding-left: 8px ;
-
-            }
-            @media(max-width: 767px){
-                .footer-col{
-                    width:50%;
-                    margin-bottom:30px;
-                }
-            }
-            @media(max-width: 767px){
-                .footer-col{
-                    width:100%;
-                }
-            }
-            
-
-        </style>
+<link rel="stylesheet" href="Staff.css">s
 
 
 
@@ -270,10 +18,7 @@ body{
                 <ul style="margin-top: 0px; margin-bottom: 0px;">
                 <li><a class="active" href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="admissions.html">Admissions</a></li>
                 <li><a href="academics.html">Academics</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="resources.html">Resources</a></li>
                 <li><a href="library.html">Library</a></li>
                 <li><a href="staff.html">Staff</a></li>
                 <li><a href="students.html">Students</a></li>
@@ -291,7 +36,7 @@ body{
                 margin-bottom: 0px;
                 ">
                 <div class="logo"> 
-                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
+                    <img src="pictures/Logo 2.jpeg" alt="Logo" width="130" height=100%>
                 </div>
                 <div class="title">
                     <div class="department">
@@ -311,8 +56,22 @@ body{
             </div>
         
         </div>
+        <div class="staff_title">
+            <h1>
+                Staff Nexus
+            </h1>
+        </div>
+        <div class="staff_intro">
+            <div></div>
+            <div>
+                <p>
+                    Delving into the dynamic realm of the Computer Science Department, this exploration unveils the backbone of technological advancement—its dedicated staff. Comprising educators, administrators, and technical experts, this collective brings expertise and passion to the forefront of academic and professional development. As catalysts for innovation, these professionals play a pivotal role in shaping the educational landscape, fostering a collaborative atmosphere, and empowering the next generation of computational minds. This project seeks to illuminate the multifaceted contributions of the Computer Science Department's staff, acknowledging their instrumental role in the ongoing evolution of technology and education.
+                </p>
+            </div>
+
+        </div>
         <div class="picture_with_students">
-            <img src="Students.jpeg">
+            <img src="pictures/Students.jpeg">
         </div>
         <div class="content_title">
             <h1>Know Our Staff</h1>
@@ -324,7 +83,7 @@ body{
                     class="staff">
         
             <div class="chancellor">
-                <img src="chancellor.jpeg">
+                <img src="pictures/chancellor.jpeg">
             </div>
             <div>
                 <p>
@@ -339,7 +98,7 @@ body{
                 </p>
             </div>
             <div class="vice_chancellor">
-                <img src="vice_chancellor.jpeg">
+                <img src="pictures/vice_chancellor.jpeg">
             </div>
             <div class="information">
                 <p>
@@ -354,7 +113,7 @@ body{
             </div>
 
             <div class="hod">
-                <img src="hod.jpg">
+                <img src="pictures/hod.jpg">
             </div>
             <div>
                 <p>Jamal-Deen</p>
@@ -363,7 +122,7 @@ body{
             </div>
 
             <div class="course_advisor">
-                <img src="course_advisor.jpg">
+                <img src="pictures/course_advisor.jpg">
             </div>
             <div class="information_course_advisor">
                 <p>
@@ -379,7 +138,7 @@ body{
             
 
             <div class="lecturer_1">
-                <img src="lecturer_1.jpg">
+                <img src="pictures/lecturer_1.jpg">
             </div>
             <div>
                 <p>Michael Soli</p>

@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Home
-        </title>
-        <meta charset="UTF-8">
-<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
 
-        <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
     line-height: 1.5;
@@ -18,7 +9,7 @@ body{
                 box-sizing: border-box;
             }
            body{
-          
+            background-color: whitesmoke;
             margin: 0%;
            }
            .logo{
@@ -92,7 +83,7 @@ body{
                 background-color:black;
                 
             }
-            .search-box{
+            .search-box input{
                
                 top: 50%;
                 transform: translate(-50% -50%);
@@ -116,6 +107,69 @@ body{
                 line-height: 40px;
                
             }
+            .students_content{
+               background-color: whitesmoke;
+               display: grid;
+               grid-template-columns: 0.25fr 1fr;
+               margin-top: 70px;
+               margin-bottom: 0px;
+               height: 600px;
+            }
+            .students_content .about_handbook p{
+                text-align: justify;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+           .list a{
+               display: block;
+               padding: 20px 25px;
+               color: black;
+               text-decoration: none;
+               text-align: center;
+               font-size: 12px;
+               background-color: gray;
+           }
+           .dropdown li{
+               display: block;
+           }
+           .dropdown{
+               padding-left: 0%;
+               background: gray;
+               position: absolute;
+               z-index: 999;
+               display: none;
+
+           }
+           .list a:hover{
+               background:black;
+               color: white;
+               transition: 0.4s;
+           }
+           .list:hover ul.dropdown{
+               display: block;
+
+           }
+           .handbook_link a{
+                margin-top: 0px;
+           }
+           .handbook h1{
+            background-color: gray;
+                padding: 10px;
+                margin-top: 0%;
+                text-align: center;
+                padding: 5px;
+                margin-bottom: 0px;
+                text-shadow: 1px 1px white;
+           }
+           .handbook img{
+                width: 100%;
+                border-radius: 18px;
+                height: 400px;
+           }
+
+
+
+
             .container{
                 max-width: 1170px;
 
@@ -188,107 +242,6 @@ body{
             }
             
 
-        </style>
 
 
 
-    </head>
-    <body>
-        
-        <div class="mainbody">
-            <nav  > 
-                <ul style="margin-top: 0px; margin-bottom: 0px;">
-                <li><a class="active" href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="academics.html">Academics</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="staff.html">Staff</a></li>
-                <li><a href="students.html">Students</a></li>
-
-                </ul>
-            </nav> 
-        </div>
-        <div>
-            <div style="
-                margin-top: 0px;
-                display: grid;
-                grid-template-columns: 0.5fr 3fr 1fr;
-                background-color: whitesmoke;
-                z-index: -100;
-                margin-bottom: 0px;
-                ">
-                <div class="logo"> 
-                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
-                </div>
-                <div class="title">
-                    <div class="department">
-                        <p>Computer Science Department</p>  
-                    </div>
-                    <div class="school">
-                        <p>University Of Ghana</p>
-                    </div>
-                </div>  
-                <div class="search">
-                    <div class="search-box">
-                        <input class="search-txt" type="text" width="200" placeholder="Search...">
-                      
-                    
-                    </div>
-                </div>
-            </div>
-        
-        </div>
-        <p>Start here....</p>
-
-
-
-
-
-
-
-
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <h4>In Our Department</h4>
-                        <ul>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Our People</a></li>
-                            <li><a href="#">Research Activities</a></li>
-                        
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Our Programmes</h4>
-                        <ul>
-                            <li><a href="#">BSc. Computer Science</a></li>
-                            <li><a href="#">BSc. Information Technology</a></li>
-                            <li><a href="#">MSc/MPhil Computer Science</a></li>
-                            <li><a href="#"></a>MSc/MPhil Information Technology</li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#">College Of Basic and Applied Science</a></li>
-                            <li><a href="#">Announcement</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">News</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Address</h4>
-                        <ul>
-                            <li><a href="#">Department of Computer Science</a></li>
-                            <li><a href="#">email: dcs@ug.edu.gh</a></li>
-                            <li><a href="#">Mobile: 0241197511/0201733552</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-
-</body>
-</html>

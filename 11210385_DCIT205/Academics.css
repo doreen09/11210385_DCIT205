@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Home
-        </title>
-        <meta charset="UTF-8">
-<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
 
-        <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
     line-height: 1.5;
@@ -92,7 +83,7 @@ body{
                 background-color:black;
                 
             }
-            .search-box{
+            .search-box input{
                
                 top: 50%;
                 transform: translate(-50% -50%);
@@ -116,6 +107,115 @@ body{
                 line-height: 40px;
                
             }
+            .academics_title h1{
+                background-color: gray;
+                padding: 10px;
+                margin-top: 0%;
+                text-align: center;
+                padding: 5px;
+                margin-bottom: 0px;
+                text-shadow: 1px 1px white;
+            }
+            .admissions_pic img{
+                width: 100%;
+                height: 400px;
+                padding-top: 10px;
+            }
+            .academic_intro{
+                display: grid;
+                grid-template-columns: 1fr 0.25fr;
+                background-color: whitesmoke;
+            }
+            .academic_intro p{
+                text-align: center;
+                text-align: justify;
+                padding-top: 30px;
+                padding-left: 40px;
+                padding-right: 40px;
+                line-height: 35px;
+                font-size: 20px;
+                font-style: normal;
+                color: black;
+
+            }
+            .academic_intro img{
+                height: 200px;
+                width: 200px;
+                border-radius: 20px;
+                align-items: center;
+            }
+            .grid{
+            background-color: darkgray;
+            padding: 10px;
+            
+            }
+            .main_course_div{
+                background-color: whitesmoke;
+            }
+            .our_courses_title p{
+                text-align: center;
+                color: white;
+                font-size: 30px;
+                background-color: darkgray;
+                margin-bottom: 0%;
+                justify-content: center;
+            }
+            .courses{
+                padding: 50px;
+                padding-top: 0%;
+                padding-bottom: 0%;
+                background-color: lightgray;
+                
+            }
+            .courses_title p{
+                background-color: gray;
+                text-align: center;
+                margin-top: 0%;
+
+            }
+            .courses .courses_content{
+                background-color: whitesmoke;
+            }
+
+            .courses .courses_link{
+                background-color: gray;
+                text-align: center;
+            }
+            .courses .courses_link a{
+                color: black;
+            }
+            .events .image img{
+                margin-top: 40px;
+                height: 200px;
+                width: 250px;
+                display: inline;
+            }
+            .events .department_events a{
+                color: gray;
+            }
+            .events .department_events h1{
+                color: gray;
+            }
+            .short_courses{
+                text-align: center;
+                margin-top: 50px;
+            }
+            .short_courses h1,b{
+                color: gray;
+            }
+            .admission img{
+                width: 100%;
+            }
+            .mainbody{
+                background-color: whitesmoke;
+            }
+
+
+
+
+
+
+
             .container{
                 max-width: 1170px;
 
@@ -188,107 +288,4 @@ body{
             }
             
 
-        </style>
-
-
-
-    </head>
-    <body>
-        
-        <div class="mainbody">
-            <nav  > 
-                <ul style="margin-top: 0px; margin-bottom: 0px;">
-                <li><a class="active" href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="academics.html">Academics</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="staff.html">Staff</a></li>
-                <li><a href="students.html">Students</a></li>
-
-                </ul>
-            </nav> 
-        </div>
-        <div>
-            <div style="
-                margin-top: 0px;
-                display: grid;
-                grid-template-columns: 0.5fr 3fr 1fr;
-                background-color: whitesmoke;
-                z-index: -100;
-                margin-bottom: 0px;
-                ">
-                <div class="logo"> 
-                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
-                </div>
-                <div class="title">
-                    <div class="department">
-                        <p>Computer Science Department</p>  
-                    </div>
-                    <div class="school">
-                        <p>University Of Ghana</p>
-                    </div>
-                </div>  
-                <div class="search">
-                    <div class="search-box">
-                        <input class="search-txt" type="text" width="200" placeholder="Search...">
-                      
-                    
-                    </div>
-                </div>
-            </div>
-        
-        </div>
-        <p>Start here....</p>
-
-
-
-
-
-
-
-
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <h4>In Our Department</h4>
-                        <ul>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Our People</a></li>
-                            <li><a href="#">Research Activities</a></li>
-                        
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Our Programmes</h4>
-                        <ul>
-                            <li><a href="#">BSc. Computer Science</a></li>
-                            <li><a href="#">BSc. Information Technology</a></li>
-                            <li><a href="#">MSc/MPhil Computer Science</a></li>
-                            <li><a href="#"></a>MSc/MPhil Information Technology</li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#">College Of Basic and Applied Science</a></li>
-                            <li><a href="#">Announcement</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">News</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Address</h4>
-                        <ul>
-                            <li><a href="#">Department of Computer Science</a></li>
-                            <li><a href="#">email: dcs@ug.edu.gh</a></li>
-                            <li><a href="#">Mobile: 0241197511/0201733552</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-
-</body>
-</html>
+    

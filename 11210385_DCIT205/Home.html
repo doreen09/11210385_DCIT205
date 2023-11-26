@@ -6,274 +6,7 @@
         </title>
         <meta charset="UTF-8">
 <meta name="viewport" csontent="width=device-width, initial-scale=1.0">
-
-        <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-    line-height: 1.5;
-    font-family:  'Poppins', sans-serif;;
-}
-            *{
-            
-                box-sizing: border-box;
-            }
-           body{
-          
-            margin: 0%;
-           }
-           .logo{
-            width: 200;
-            height: 200;
-            background-color: black;
-            
-        
-           }
-           nav{
-                 margin-top: 0px;
-                 background:black ; 
-                 height: 100%;
-                 width: 100%;
-                 top: 0%;
-                 font-family: Arial, Helvetica, sans-serif;
-                 margin-bottom: 0px 0px 0px 0px;
-                 padding: 0%;
-             }
-             .navigation-bar{
-               position: relative;
-               margin:0%;
-              
-             }
-             nav a:hover{
-                color: black;
-                background-color: whitesmoke;
-             } 
-             nav ul{
-                 
-                 margin-right: 20px;
-              
-                  
-             }
-             nav ul li{
-                 display: inline-block;
-                 line-height: 35px ;
-                 margin: 0 5px;
-                 align-items: center; 
-             }
-             nav ul li a{
-                 color:white;
-                 font-size:17px;
-                 text-transform:uppercase;
-                 padding: 7px 13px;
-                 border-radius: 3px;
-                 
-             }
-            .title{
-                background-color: black;
-            }
-            .school{
-                color: whitesmoke;
-                display: block;
-                font-family: Arial, Helvetica, sans-serif;
-                font-stretch: semi-expanded;
-               
-            }
-            .department{
-                display: block;
-                font-size: 35px;
-                color: whitesmoke;
-                margin-bottom: 20px;
-                margin-top: 0px;
-            }
-            .dept{
-               margin-top: 20px;
-               background-color: whitesmoke;
-            }
-            .search{
-                background-color:black;
-                
-            }
-            .search-box{
-               
-                top: 50%;
-                transform: translate(-50% -50%);
-                background: whitesmoke;
-                height: 25px;
-                border-radius: 20px;
-                padding: 0;
-                margin: 40px 0px 0px;
-                padding-bottom: 0px;
-
-            }
-            .search-txt{
-                border: none;
-                background: none;
-                outline: none;
-                color: black;
-                padding:0;
-                float: inline-start;
-                font-size: 16px;
-                transition: 0.5s;
-                line-height: 40px;
-               
-            }
-            .mainbody{
-                background-color: whitesmoke;
-            }
-           
-            .welcome{
-                font-size: 20px;
-                padding-left: 13px;
-            }
-            .message{
-                padding-left: 10px;
-            }
-            .welcome-message2{
-                padding-top: 45px;
-            }
-            .dept{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-            
-              
-            }
-            .dept2{
-                background-color: whitesmoke;
-            }
-            
-            .newshub{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                background-color: whitesmoke;
-                margin-top: 45px;
-            }
-            .news{
-                text-align: center;
-                font-size: 24px;
-                color: darkgrey;
-            }
-            .allnews{
-               text-align: right;
-               display: inline-block;
-               border:black ;
-               justify-content: center;
-            }
-            .allnews a{
-                 color:grey;
-                 font-size:17px;
-                 padding: 7px 13px;
-                 border-radius: 3px;
-                 border-color: black;
-                 margin-right: 10px;
-                 background-color: whitesmoke;
-                 text-decoration: none;
-                 text-emphasis: none;
-             
-             }
-             a:hover{
-                 background: black;
-                 transition: .5s;
-                 color: white;
-             }
-             .aboutnews{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-                column-gap: 20px;
-                background-color: whitesmoke;
-                
-             }
-             .aboutnews p{
-                text-decoration: none;
-             }
-             .aboutnews img{
-                padding: 15px;
-                border-radius: 20px;
-             }
-
-
-
-
-
-
-            
-            
-            
-            
-            
-            .container{
-                max-width: 1170px;
-
-                margin: auto;
-            }
-            .row{
-                display:flex;
-                flex-wrap: wrap;
-
-            }
-            .ul{
-                list-style: none;
-            }
-            .footer{
-                background-color: black;
-                padding: 70px 0;
-            }
-            .footer-col{
-                width:25%;
-                padding: 0 15px;
-
-            }
-            .footer-col h4{
-                font-size: 18px;
-                color:whitesmoke;
-                text-transform: capitalize;
-                margin-bottom: 35px;
-                font-weight: 500;
-                position: relative;
-           
-            }
-            .footer-col h4::before{
-                content: '';
-                position:absoluste;
-                left: 0;
-                bottom: -10px;
-                background-color: red;
-                height: 2px;
-                box-sizing: border-box;
-                width: 50px;
-            }
-            .footer-col ul li:not(:last-child){
-                margin-bottom: 10px;
-            }
-            .footer-col ul li a{
-                font-size: 16px;
-                text-transform:capitalize;
-                color: whitesmoke;
-                text-decoration: none;
-                font-weight: 300;
-                color: #bbbbbb;
-                display: block;
-                transition: all 0.3s ease;
-            }
-            .footer-col ul li a:hover{
-                color: #ffffff;
-                padding-left: 8px ;
-
-            }
-            @media(max-width: 767px){
-                .footer-col{
-                    width:50%;
-                    margin-bottom:30px;
-                }
-            }
-            @media(max-width: 767px){
-                .footer-col{
-                    width:100%;
-                }
-            }
-            
-
-        </style>
-
-
+<link rel="stylesheet" href="Home.css">
 
     </head>
     <body>
@@ -283,10 +16,7 @@ body{
                 <ul style="margin-top: 0px; margin-bottom: 0px;">
                 <li><a class="active" href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="admissions.html">Admissions</a></li>
                 <li><a href="academics.html">Academics</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="resources.html">Resources</a></li>
                 <li><a href="library.html">Library</a></li>
                 <li><a href="staff.html">Staff</a></li>
                 <li><a href="students.html">Students</a></li>
@@ -304,7 +34,7 @@ body{
                 margin-bottom: 0px;
                 ">
                 <div class="logo"> 
-                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
+                    <img src="pictures/Logo 2.jpeg" alt="Logo" width="130" height=100%>
                 </div>
                 <div class="title">
                     <div class="department">
@@ -315,29 +45,30 @@ body{
                     </div>
                 </div>  
                 <div class="search">
-                    <div class="search-box">
                         <input class="search-txt" type="text" width="200" placeholder="Search...">
-                      
-                    
-                    </div>
                 </div>
             </div>
         
         </div>
+
+        <div class="home_title">
+            <h1 data-text="Welcome to a world of endless possibilities – welcome to the Computer Science Department.">Welcome to a world of endless possibilities – welcome to the Computer Science Department.</h1>
+        </div>
+
         <div>
             <div>
                 <div class="dept">
                     <div class="studpic"  >
-                        <img src="Students.jpeg" height="400"  style="border-radius: 20px";>
+                        <img src="pictures/Students.jpeg" height="400"  style="border-radius: 20px";>
                     </div> 
-                    <div class="welcome-message">
-                        <div class="welcome">
-                            <h4>Welcome to the Computer Science Department</h4>
-                        </div>
-                        <div class="message">
+                    
+                   
+                    
+                   
+                    <div class="message">
                             <p>Currently, the Department offers one undergraduate degree in computer science as well as three postgraduate programs in computer science, information technology, cyber security, and digital forensics. Parallel programs are also run by the Department. Maintaining global competitiveness in today's quickly changing environment need the abilities of a well-rounded, holistic individual with technical expertise and commercial acumen to face difficult situations. The Computer Science Department is unique in its ability to build information technology capabilities. Hello and welcome to the Department. </p>
-                        </div>
                     </div>
+            
                 </div>
             </div>    
             <div>
@@ -351,7 +82,7 @@ body{
                     </div> 
                     <div class="message2">
                         <div class="studpic2">
-                            <img src="students 3.jpeg" height="400" width="100%" style="border-radius: 20px;">
+                            <img src="pictures/students 3.jpeg" height="400" width="100%" style="border-radius: 20px;">
                         
                         </div>
                     </div>
@@ -365,19 +96,19 @@ body{
             </div>
             <div class="aboutnews">
                 <div>
-                    <img src="embracing.jpeg" width="200" height="200">
+                    <img src="pictures/embracing.jpeg" width="200" height="200">
                     <p><a href="#">Embracing Tech Entrepreneurship: Unlocking Opportunities to Solve Real-World Problems and Drive Innovation</a></p>
                 </div>
                 <div>
-                    <img src="revolutionalizing.jpg" width="200" height="200">
+                    <img src="pictures/revolutionalizing.jpg" width="200" height="200">
                     <p><a href="#">Revolutionizing Digital Systems: Web3 and Blockchain Technology's Paradigm Shift</a></p>
                 </div>
                 <div>
-                    <img src="journey.jpg" width="200" height="200">
+                    <img src="pictures/journey.jpg" width="200" height="200">
                     <p><a href="#">A Journey Through Time: Exploring the Evolution of Website Designing</a></p>
                 </div>
                 <div>
-                    <img src="unleashing.jpg" width="200" height="200">
+                    <img src="pictures/unleashing.jpg" width="200" height="200">
                     <p><a href="#">Unleashing the Power of Software Development: The Essentiality of Skills and the Rise of Open-Source Technologies</a></p>
                 </div>
 

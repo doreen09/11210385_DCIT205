@@ -5,252 +5,9 @@
             Vice Chancellor's Office
         </title>
         <meta charset="UTF-8">
-<meta name="viewport" csontent="width=device-width, initial-scale=1.0">
-
-        <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-    line-height: 1.5;
-    font-family:  'Poppins', sans-serif;;
-}
-            *{
-            
-                box-sizing: border-box;
-            }
-           body{
-          
-            margin: 0%;
-           }
-           .logo{
-            width: 200;
-            height: 200;
-            background-color: black;
-            
-        
-           }
-           nav{
-                 margin-top: 0px;
-                 background:black ; 
-                 height: 100%;
-                 width: 100%;
-                 top: 0%;
-                 font-family: Arial, Helvetica, sans-serif;
-                 margin-bottom: 0px 0px 0px 0px;
-                 padding: 0%;
-             }
-             .navigation-bar{
-               position: relative;
-               margin:0%;
-              
-             }
-             nav a:hover{
-                color: black;
-                background-color: whitesmoke;
-             } 
-             nav ul{
-                 
-                 margin-right: 20px;
-              
-                  
-             }
-             nav ul li{
-                 display: inline-block;
-                 line-height: 35px ;
-                 margin: 0 5px;
-                 align-items: center; 
-             }
-             nav ul li a{
-                 color:white;
-                 font-size:17px;
-                 text-transform:uppercase;
-                 padding: 7px 13px;
-                 border-radius: 3px;
-                 
-             }
-            .title{
-                background-color: black;
-            }
-            .school{
-                color: whitesmoke;
-                display: block;
-                font-family: Arial, Helvetica, sans-serif;
-                font-stretch: semi-expanded;
-               
-            }
-            .department{
-                display: block;
-                font-size: 35px;
-                color: whitesmoke;
-                margin-bottom: 20px;
-                margin-top: 0px;
-            }
-            .dept{
-               margin-top: 20px;
-               background-color: whitesmoke;
-            }
-            .search{
-                background-color:black;
-                
-            }
-            .search-box{
-               
-                top: 50%;
-                transform: translate(-50% -50%);
-                background: whitesmoke;
-                height: 25px;
-                border-radius: 20px;
-                padding: 0;
-                margin: 40px 0px 0px;
-                padding-bottom: 0px;
-
-            }
-            .search-txt{
-                border: none;
-                background: none;
-                outline: none;
-                color: black;
-                padding:0;
-                float: inline-start;
-                font-size: 16px;
-                transition: 0.5s;
-                line-height: 40px;
-               
-            }
-            .about_vice_chancellor{
-               
-               display: grid;
-               grid-template-columns: 0.25fr 1fr;
-               margin-top: 70px;
-               margin-bottom: 0px;
-            }
-            .list a{
-               display: block;
-               padding: 20px 25px;
-               color: black;
-               text-decoration: none;
-               text-align: center;
-               font-size: 12px;
-               background-color: gray;
-           }
-           .dropdown li{
-               display: block;
-           }
-           .dropdown{
-               padding-left: 0%;
-               background: gray;
-               position: absolute;
-               z-index: 999;
-               display: none;
-
-           }
-           .list a:hover{
-               background:black;
-               color: white;
-               transition: 0.4s;
-           }
-           .list:hover ul.dropdown{
-               display: block;
-           }
-
-           .vice_chancellor img{
-            float: left;
-            width: 300px;
-            height:260px;
-            padding:0 10px 0 0;
-            border-radius: 20px;
-
-           }
-           .vice_chancellor p{
-            text-align: justify;
-            margin-left: 10px;
-            padding-right: 10px;
-           }
-           .vice_chancellor{
-            margin-bottom: 20px;
-            padding-right: 20px;
-           }
-
-
-
-
-
-          
-            .container{
-                max-width: 1170px;
-
-                margin: auto;
-            }
-            .row{
-                display:flex;
-                flex-wrap: wrap;
-
-            }
-            .ul{
-                list-style: none;
-            }
-            .footer{
-                background-color: black;
-                padding: 70px 0;
-            }
-            .footer-col{
-                width:25%;
-                padding: 0 15px;
-
-            }
-            .footer-col h4{
-                font-size: 18px;
-                color:whitesmoke;
-                text-transform: capitalize;
-                margin-bottom: 35px;
-                font-weight: 500;
-                position: relative;
-           
-            }
-            .footer-col h4::before{
-                content: '';
-                position:absoluste;
-                left: 0;
-                bottom: -10px;
-                background-color: red;
-                height: 2px;
-                box-sizing: border-box;
-                width: 50px;
-            }
-            .footer-col ul li:not(:last-child){
-                margin-bottom: 10px;
-            }
-            .footer-col ul li a{
-                font-size: 16px;
-                text-transform:capitalize;
-                color: whitesmoke;
-                text-decoration: none;
-                font-weight: 300;
-                color: #bbbbbb;
-                display: block;
-                transition: all 0.3s ease;
-            }
-            .footer-col ul li a:hover{
-                color: #ffffff;
-                padding-left: 8px ;
-
-            }
-            @media(max-width: 767px){
-                .footer-col{
-                    width:50%;
-                    margin-bottom:30px;
-                }
-            }
-            @media(max-width: 767px){
-                .footer-col{
-                    width:100%;
-                }
-            }
-            
-
-        </style>
-
-
-
+        <meta name="viewport" csontent="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="vice_chancellor.css">
+      
     </head>
     <body>
         
@@ -259,10 +16,7 @@ body{
                 <ul style="margin-top: 0px; margin-bottom: 0px;">
                 <li><a class="active" href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="admissions.html">Admissions</a></li>
                 <li><a href="academics.html">Academics</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="resources.html">Resources</a></li>
                 <li><a href="library.html">Library</a></li>
                 <li><a href="staff.html">Staff</a></li>
                 <li><a href="students.html">Students</a></li>
@@ -280,7 +34,7 @@ body{
                 margin-bottom: 0px;
                 ">
                 <div class="logo"> 
-                    <img src="Logo 2.jpeg" alt="Logo" width="130" height=100%>
+                    <img src="pictures/Logo 2.jpeg" alt="Logo" width="130" height=100%>
                 </div>
                 <div class="title">
                     <div class="department">
@@ -300,6 +54,11 @@ body{
             </div>
         
         </div>
+        <div class="chancellor_title">
+            <h1>
+                The Vice Chancellor
+            </h1>
+        </div>
         <div class="about_vice_chancellor">
             <div class="about-col">
                 <ul class="list">
@@ -318,7 +77,7 @@ body{
                 <div class="vice_chancellor">
                     
                     <h1>Professor Nana Aba Appiah Amfo</h1>
-                    <img src="vice_chancellor.jpeg" alt="Vice-Chancellor's picture"> 
+                    <img src="pictures/vice_chancellor.jpeg" alt="Vice-Chancellor's picture"> 
                     <p>
                         Professor Nana Aba Appiah Amfo is the first female Vice-Chancellor at the University of Ghana. She is an experienced academic and university administrator, with over twenty years of experience in the higher education sector. She brings a lot of innovation, resourcefulness, and tact to her professional engagements. As Vice-Chancellor, Professor Amfo is driven by two key notions–technology as an enabler and a devotion to human welfare – in all the operations of the University.
                     </p>
