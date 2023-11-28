@@ -51,7 +51,7 @@ Staff Page
 ![Staff Page](11210385_DCIT205/Screenshots/staff.png)
 
 Students Page
-![Student Page](11210385_DCIT205/Screenshots/student.png)
+![Student Page](11210385_DCIT205/Screenshots/students.png)
 
 University Policies
 ![Univesity Policies](11210385_DCIT205/Screenshots/University_policies.png)
