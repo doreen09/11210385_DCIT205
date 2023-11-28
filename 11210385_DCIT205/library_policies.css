@@ -106,6 +106,7 @@ a .active, a:hover{
             }
             .policies ul li{
                 text-align: justify;
+                list-style: circle;
             }
             .policies-col .policies_content{
                

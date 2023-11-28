@@ -39,6 +39,7 @@ nav ul li a{
 a .active, a:hover{
     background: gray;
     transition: 0.5s;
+    color: white;
 
 }
 .header{
@@ -133,6 +134,7 @@ a .active, a:hover{
 .department-image img{
     border-radius: 20px;
     padding: 10px;
+    height: 450px;
 }
 .history-title{
     color: grey;
