@@ -5,53 +5,43 @@
             Academics
         </title>
         <meta charset="UTF-8">
-    <meta name="viewport" csontent="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Academics.css">
+        <meta name="viewport" csontent="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Academics.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">        
 
     </head>
     <body>
-        
-        <div class="mainbody">
-            <nav  > 
-                <ul style="margin-top: 0px; margin-bottom: 0px;">
-                <li><a class="active" href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="academics.html">Academics</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="staff.html">Staff</a></li>
-                <li><a href="students.html">Students</a></li>
-
+        <div>
+            <nav >
+            
+                <ul>
+                    <li><a class="active" href="Home.html">home</a></li>
+                    <li><a href="About.html">about</a></li>
+                    <li><a href="Academics.html">academics</a></li>
+                    <li><a href="library.html">library</a></li>
+                    <li><a href="Staff.html">staff</a></li>
+                    <li><a href="students.html">students</a></li>
                 </ul>
-            </nav> 
-        </div>
-        <div class="main_course_div">
-            <div style="
-                margin-top: 0px;
-                display: grid;
-                grid-template-columns: 0.5fr 3fr 1fr;
-                background-color: whitesmoke;
-                z-index: -100;
-                margin-bottom: 0px;
-                ">
-                <div class="logo"> 
-                    <img src="pictures/Logo 2.jpeg" alt="Logo" width="130" height=100%>
+                
+            </nav>
+            <div class="header">
+                <div class="logo">
+                    <img src="pictures/logo.png">
                 </div>
-                <div class="title">
-                    <div class="department">
-                        <p>Computer Science Department</p>  
-                    </div>
-                    <div class="school">
-                        <p>University Of Ghana</p>
-                    </div>
-                </div>  
-                <div class="search">
-                    <div class="search-box">
-                        <input class="search-txt" type="text" width="200" placeholder="Search...">
-                      
-                    
+                <div class="department">
+                    <h3>Computer Science Department</h3>
+                </div>
+                <div>
+                    <div class="search">
+                        <div class="search-box">
+                            <input class="search-txt" type="text" width="200" placeholder="Search...">
+                        
+                        
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         
         </div>
         <div class="academics_title">
@@ -60,14 +50,14 @@
             </h1>
             
         </div>
+        <div class="admission">
+            <img src="pictures/admissions.jpeg">
+        </div>
         <div class="mainbody">
-            <div class="admissions_pic">
-                <img src="pictures/students 3.jpeg">
-            </div>
             <div class="academic_intro">
                 <div>
                     <p>
-                        Exploring the dynamic landscape of computer science, this project delves into innovative methodologies and cutting-edge concepts. From algorithmic advancements to practical implementations, the study navigates through the evolving frontiers of computational intelligence. By addressing key challenges and embracing emerging trends, this work contributes to the ongoing dialogue shaping the academic landscape of computer science.
+                        Exploring the dynamic landscape of computer science, this course delves into innovative methodologies and cutting-edge concepts. From algorithmic advancements to practical implementations, the study navigates through the evolving frontiers of computational intelligence. By addressing key challenges and embracing emerging trends, this work contributes to the ongoing dialogue shaping the academic landscape of computer science.
                     </p>
                 </div>
                 <div>
@@ -78,12 +68,11 @@
             </div>
             <div>
                 <div class="our_courses_title">
-                    <p>Our courses</p>
+                    <h1>Our courses</h1>
                 </div>
-                <div style="display: grid;
-                            grid-template-columns: 1fr 1fr 1fr 1fr;"
+                <div style="display: flex;"
                             class="grid"
-                >
+                 >
                     
                     <div class="courses">
                         <div class="courses_content">
@@ -105,7 +94,7 @@
                             </div>
                             <div>
                                 <p>
-                                    Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree.
+                                    Open the door to sought-after technology careers and opportunities with a world-class Bachelor of Science in Computer Science degree.
                                 </p>
                             </div>
                             <div class="courses_link">
@@ -145,27 +134,22 @@
                     </div>
                 </div>
             </div>
-            <div style=" display: grid;
-                        grid-template-columns: 1fr 1fr 2fr;"
-                class="events" >
-                <div></div>
-                <div class="image">
-                    <img src="pictures/Students.jpeg">
-                </div>
-                <div class="department_events">
-                    <h1>
-                        Departmental Events
-                    </h1>
-                    <p>
-                        Programmes, seminars and events organized by the department
-                    </p>
-                    <a href="#">
-                        View upcoming and ongoing events
+            
+            
+            <div class="department_events">
+                <h1>
+                    Departmental Events
+                </h1>
+                <p>
+                       Programmes, seminars and events organized by the department
+                </p>
+                <a href="#">
+                    View upcoming and ongoing events
                     </a>
                 </div>
             </div>
-            <div style="display: grid;
-                        grid-template-columns: 1fr 2fr 1fr;">
+             <div style="display: grid;
+                        grid-template-columns: 1fr 2fr 1fr; padding-bottom: 70px; background-color: whitesmoke;" class="shortcourses_div">
                 <div></div>
                 <div class="short_courses">
                     <h1>
@@ -182,11 +166,58 @@
                 </div>
                 <div></div>
             </div>
-            <div class="admission">
-                <img src="pictures/admissions.jpeg">
-            </div>
-        </div>
+            <div class= "short">
+                <div>
+                    <h1>Join our short course program</h1>
+                </div>
+                <div>
+                    <p>To be able to take full advantage of the opportunities available to this technology driven era, it is important to acquire new skills. Skills in ICT that will springboard your career. </p>
+                </div>
+                <div class="shortcourse">
+                    <div>
+                        <div>
+                            <h3>Expert Instructors</h3>
+                        </div>
+                        <div class="graduation-cap">
+                            <i class= "large material-icons" style="font-size: 50px; text-align: center;" >school</i>
+                        </div>
+                        <div>
+                            
+                            <p>
+                                Our instructors have years of industry experience which presents students with a unique opportunity of learning from the best
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        
+                        <div>
+                            <h3>Certification</h3>
+                        </div>
+                        <div class="graduation-cap">
+                            <i class= "large material-icons" style="font-size: 50px; text-align: center;" >star</i>
+                        </div>
+                        <div>
+                            <p>
+                                You earn a certificate of completion from the department after completing and passing the prescribed exam
+                            </p>
+                        </div>
+                
 
+                    </div>
+                </div>
+                <div class="link">
+                    <a href="#">REGISTER</a>
+                </div>
+                </div>
+                
+
+
+            </div>
+            </div>
+           
+           
+           
+         
             
         
 
@@ -240,6 +271,7 @@
             </div>
         </footer>
     </div>
+  
 
 </body>
 </html>

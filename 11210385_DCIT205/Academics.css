@@ -4,14 +4,18 @@ body{
     line-height: 1.5;
     font-family:  'Poppins', sans-serif;;
 }
-            *{
-            
-                box-sizing: border-box;
-            }
+        *{
+           
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
            body{
-          
+            padding-top: 0%;
             margin: 0%;
            }
+          
            .logo{
             width: 200;
             height: 200;
@@ -20,93 +24,78 @@ body{
         
            }
            nav{
-                 margin-top: 0px;
-                 background:black ; 
-                 height: 100%;
-                 width: 100%;
-                 top: 0%;
-                 font-family: Arial, Helvetica, sans-serif;
-                 margin-bottom: 0px 0px 0px 0px;
-                 padding: 0%;
-             }
-             .navigation-bar{
-               position: relative;
-               margin:0%;
-              
-             }
-             nav a:hover{
-                color: black;
-                background-color: whitesmoke;
-             } 
-             nav ul{
-                 
-                 margin-right: 20px;
-              
-                  
-             }
-             nav ul li{
-                 display: inline-block;
-                 line-height: 35px ;
-                 margin: 0 5px;
-                 align-items: center; 
-             }
-             nav ul li a{
-                 color:white;
-                 font-size:17px;
-                 text-transform:uppercase;
-                 padding: 7px 13px;
-                 border-radius: 3px;
-                 
-             }
-            .title{
-                background-color: black;
-            }
-            .school{
-                color: whitesmoke;
-                display: block;
-                font-family: Arial, Helvetica, sans-serif;
-                font-stretch: semi-expanded;
-               
-            }
-            .department{
-                display: block;
-                font-size: 35px;
-                color: whitesmoke;
-                margin-bottom: 20px;
-                margin-top: 0px;
-            }
-            .dept{
-               margin-top: 20px;
-               background-color: whitesmoke;
-            }
-            .search{
-                background-color:black;
-                
-            }
-            .search-box input{
-               
-                top: 50%;
-                transform: translate(-50% -50%);
-                background: whitesmoke;
-                height: 25px;
-                border-radius: 20px;
-                padding: 0;
-                margin: 40px 0px 0px;
-                padding-bottom: 0px;
+            background: black;
+            height: 60px;
+            width: 100%; 
 
-            }
-            .search-txt{
-                border: none;
-                background: none;
-                outline: none;
-                color: black;
-                padding:0;
-                float: inline-start;
-                font-size: 16px;
-                transition: 0.5s;
-                line-height: 40px;
-               
-            }
+        }
+        
+        nav ul{
+            padding-left: 300px;
+            margin-right: 20px;
+        }
+        nav ul li{
+            display: inline-block;
+            line-height: 60px;
+            margin: 0 5px;
+        }
+        nav ul li a{
+            color: white;
+            text-transform: uppercase ;
+            padding: 7px 13px;
+            border-radius: 3px ;
+        }
+        a .active, a:hover{
+            background: gray;
+            transition: 0.5s;
+        
+        }
+        .header{
+            display: grid;
+            grid-template-columns: 0.2fr 2fr 0.4fr;
+            background: black;
+            padding-left: 15px;
+        }
+        .logo img{
+            height: 100px;
+            padding-left: 10px;
+        }
+        .department h3{
+            color: lightgray;
+            font-size: 30px;
+        }
+        .department{
+            padding-top: 20px;
+        }
+        .header .search{
+            background-color:black;
+            
+        }
+        .header .search-box input{
+           
+            top: 50%;
+            transform: translate(-50% -50%);
+            background: whitesmoke;
+            height: 25px;
+            border-radius: 20px;
+            padding: 0;
+            margin: 40px 0px 0px;
+            padding-bottom: 0px;
+        
+        }
+        .header .search-txt{
+            border: none;
+            background: none;
+            outline: none;
+            color: black;
+            padding:0;
+            float: inline-start;
+            font-size: 16px;
+            transition: 0.5s;
+            line-height: 40px;
+            
+           
+        }
             .academics_title h1{
                 background-color: gray;
                 padding: 10px;
@@ -145,40 +134,45 @@ body{
                 align-items: center;
             }
             .grid{
-            background-color: darkgray;
-            padding: 10px;
+                margin: 10px;
             
             }
             .main_course_div{
                 background-color: whitesmoke;
             }
-            .our_courses_title p{
+            .our_courses_title h1{
                 text-align: center;
-                color: white;
+                color: darkgrey;
                 font-size: 30px;
-                background-color: darkgray;
                 margin-bottom: 0%;
                 justify-content: center;
+                margin-top: 50px;
+
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 22px;
+                background-color: whitesmoke;
+                padding-left: 30px ;
+                margin-bottom: 30px;
             }
             .courses{
-                padding: 50px;
-                padding-top: 0%;
-                padding-bottom: 0%;
-                background-color: lightgray;
-                
+                border: 1px solid lightgray;
+                width: 100%;
             }
             .courses_title p{
-                background-color: gray;
+                background-color: lightgray;
                 text-align: center;
                 margin-top: 0%;
-
             }
             .courses .courses_content{
                 background-color: whitesmoke;
+                text-align: center
             }
 
             .courses .courses_link{
-                background-color: gray;
+                background-color: lightgray;
                 text-align: center;
             }
             .courses .courses_link a{
@@ -190,10 +184,20 @@ body{
                 width: 250px;
                 display: inline;
             }
-            .events .department_events a{
+            .department_events{
+                text-align: center;
+                padding: 30px;
+                margin-top: 30px;
+                padding-bottom: 30px;
+            }
+            .department_events a{
                 color: gray;
             }
-            .events .department_events h1{
+            .department_events a:hover{
+                color: black;
+                background-color: #bbbbbb
+            }
+            .department_events h1{
                 color: gray;
             }
             .short_courses{
@@ -209,8 +213,58 @@ body{
             .mainbody{
                 background-color: whitesmoke;
             }
+            .short{
+                padding-left: 40px;
+                color: white;
+                text-align: center;
+                padding: 30px;
+                margin-bottom: 40px;
+                line-height: 50px;
+                background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(pictures/Students.jpeg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            .short p{
+                font-size: 12px;
+            }
+            .shortcourse_div{
+                background: gray;
+                padding-bottom: 50px;
+            }
+            .shortcourse{
+                display: flex;
+            }
+            .shortcourse div{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 10px;
+            }
+            /* .expert{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            } */
+            .shortcourse .expert{
+                display: inline-block;
+            }
+            .short .link a{
+                color: white;
+                background: darkgoldenrod;
+                padding: 10px;
+                margin-top: 60px;
 
-
+            }
+            .graduation-cap{
+                height: 50px;
+                width: 200px;
+                z-index: 10000;
+            }
+            .graduation-cap i{
+                z-index: 9999;
+                position: absolute;
+            }
+           
 
 
 
